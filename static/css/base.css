@@ -90,3 +90,14 @@ body {
         padding-top: 164px;
     }
 }
+
+/* Allow for space on the top when on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: clac(100vh - 116px);
+    }
+}
