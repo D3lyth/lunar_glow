@@ -1,6 +1,7 @@
-from django.shortcuts import render, get_object_or_404 
+from django.shortcuts import render, get_object_or_404, redirect 
 from django.contrib import messages
 from django.db.models import Q
+from django.urls import reverse
 from .models import Product, Category
 
 def all_products(request):
@@ -16,16 +17,15 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-
-    if request.GET:
         if 'q' in request.GET:
             query = request.GET.get('q', '')
             if not query:
-                message.error(request, "Ypu didn't enter any search criteria.")
+                message.error(request, "You didn't enter any search criteria.")
                 return redirect(reverse('products'))
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
+
 
     context = {
         'products': products,
@@ -39,10 +39,13 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    # Get the search term from the query parameter
+    search_term = request.GET.get('q', '')
+
     context = {
         'product': product,
-        'search_term': query,
-        'current_category': categories, 
+        'search_term': search_term, #***********MIGHT NEED TO CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # 'current_category': categories, 
     }
 
     return render(request, 'products/product_detail.html', context)  
