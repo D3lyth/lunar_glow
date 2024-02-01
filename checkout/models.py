@@ -35,7 +35,7 @@ def update_total(self):
     Update grand total each time a line item is added,
     using a fixed delivery cost.
     """
-    self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
+    self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
     
     # Set the fixed delivery cost
     self.delivery_cost = settings.FIXED_DELIVERY_COST
