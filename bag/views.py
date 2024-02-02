@@ -29,13 +29,14 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
     
-
 # Adjust bag
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
+    bag = request.session.get('bag', {})  # Retrieve bag from session
+
     if quantity > 0:
         bag[item_id] = quantity
         messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
@@ -45,6 +46,12 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
+
+
+
+
+    
 
 # Remove items from bag
 
