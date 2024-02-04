@@ -24,8 +24,8 @@ SECRET_KEY = 'django-insecure-66e8+l+_oxu5_xg-))512$9oejj@k3pnwtj9gft3s_dqqb1pd#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-d3lyth-lunarglow-hkwun2u769c.ws-eu107.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['http://8000-d3lyth-lunarglow-hkwun2u769c.ws-eu107.gitpod.io', 'https://8000-d3lyth-lunarglow-hkwun2u769c.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-d3lyth-lunarglow-hkwun2u769c.ws-eu108.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-d3lyth-lunarglow-hkwun2u769c.ws-eu108.gitpod.io', 'https://8000-d3lyth-lunarglow-hkwun2u769c.ws-eu108.gitpod.io']
 
 # Application definition
 
@@ -166,6 +166,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Stripe
 FIXED_DELIVERY_COST = 2.95
-STRIPE_CURRENCY = 'usd'
+STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
