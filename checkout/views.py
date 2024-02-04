@@ -15,7 +15,6 @@ def checkout(request):
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
     if request.method == 'POST':
-        print("POST request received")
         bag = request.session.get('bag', {})
 
         form_data = {
@@ -30,10 +29,8 @@ def checkout(request):
             'county': request.POST['county'],
         }
         order_form = OrderForm(form_data)
-
         if order_form.is_valid():
-            order = order_form.save()
-            print("Order saved successfully")
+            order_form.save()
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
