@@ -1,6 +1,9 @@
 from django.shortcuts import render
-from .models import FAQ
+from .models import FAQ  
+from django.urls import reverse 
 
-def faq_list(request):
-    faqs = FAQ.objects.all()  # Assuming you have a FAQ model
+def all_faqs(request):
+    url = reverse('faqs')
+    faqs = FAQ.objects.all()  
     return render(request, 'faqs/faqs.html', {'faqs': faqs})
+

@@ -45,10 +45,15 @@
             </div>
         </li>
 
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'faqs' %}" id="faqs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="" id="faqs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 FAQs
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
+                <a href="{% url 'faqs' %}" class="dropdown-item">Product FAQs</a>
+                <a href="{% url 'faqs' %}" class="dropdown-item">Orders and Deliveries</a>
+                <a href="{% url 'faqs' %}" class="dropdown-item">Contact Us</a>
+            </div>
         </li>
 
     </ul>

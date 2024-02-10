@@ -1,13 +1,23 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
 
 {% block content %}
 <div class="container mt-5">
     <h1>Frequently Asked Questions</h1>
     <ul>
-        {% for faq in faqs %}
+        Question: Answer
+        <!-- {% for faq in faqs %}
             <li>{{ faq.question }}</li>
             <p>{{ faq.answer }}</p>
-        {% endfor %}
+        {% endfor %} -->
     </ul>
 </div>
 {% endblock %}
