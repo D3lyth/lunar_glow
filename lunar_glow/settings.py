@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', False)
 
-ALLOWED_HOSTS = ['lunar-glow-77444c493d2e.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['lunar-glow-77444c493d2e.herokuapp.com', '']
 CSRF_TRUSTED_ORIGINS = []
 host = os.environ.get('SITE_NAME')
 if host:
