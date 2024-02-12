@@ -1,7 +1,7 @@
 [
     {
         "model": "products.category",
-        "pk": 2,
+        "pk": 1,
         "fields": {
             "name": "candles",
             "friendly_name": "Candles"
@@ -9,7 +9,7 @@
     },
     {
         "model": "products.category",
-        "pk": 3,
+        "pk": 2,
         "fields": {
             "name": "jar_candles",
             "friendly_name": "Jar Candles"
@@ -17,23 +17,23 @@
     },
     {
         "model": "products.category",
-        "pk": 4,
+        "pk": 3,
         "fields": {
-            "name": "wax_melts",
-            "friendly_name": "Wax Melts"
+            "name": "wax_bars",
+            "friendly_name": "Wax Bars"
             }
     },
     {
         "model": "products.category",
-        "pk": 5,
+        "pk": 4,
         "fields": {
-            "name": "individual_wax_bars",
+            "name": "individual_wax_melts",
             "friendly_name": "Individual Wax Melts"
             }
     },
     {
         "model": "products.category",
-        "pk": 6,
+        "pk": 5,
         "fields": {
             "name": "wax_burners",
             "friendly_name": "Wax Burners"
@@ -41,7 +41,7 @@
     },
     {
         "model": "products.category",
-        "pk": 7,
+        "pk": 6,
         "fields": {
             "name": "reed_diffusers",
             "friendly_name": "Reed Diffusers"
@@ -49,7 +49,7 @@
     },
     {
         "model": "products.category",
-        "pk": 8,
+        "pk": 7,
         "fields": {
             "name": "matches_and_tools",
             "friendly_name": "Matches and Tools"

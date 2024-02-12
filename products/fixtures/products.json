@@ -1,0 +1,262 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "category": 3,
+            "name": "Lavender Fields Bliss",
+            "description": "Indulge your senses with Lavender Fields Bliss wax snap bar, blending the calming essence of French lavender and gentle chamomile with a hint of tropical coconut. Handcrafted to perfection, using 100% soy wax, each bar releases a symphony of scents, creating a tranquil and serene ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Floral",
+            "price": "3.5",
+            "sku": "LGWM001",
+            "image": "wax_bar1.jpeg"
+            }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "category": 3,
+            "name": "Citrus Grove Delight",
+            "description": "Indulge your senses with Citrus Grove Delight wax snap bar, marrying the invigorating aroma of zesty lemon, ripe oranges, and tangy grapefruits. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of citrus freshness, creating an uplifting and revitalizing ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Fresh, Fruity",
+            "price": "3.5",
+            "sku": "LGWM002",
+            "image": "wax_bar2.jpeg"
+            }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "category": 3,
+            "name": "Ocean Mist Serenity",
+            "description": "Indulge your senses with Ocean Mist Serenity wax snap bar, capturing the essence of fresh sea breeze, salty air, and hints of oceanic florals. Handcrafted to perfection, using 100% soy wax, each bar releases a wave of tranquil serenity, evoking memories of seaside escapes and peaceful moments. Experience pure luxury in every melt.",
+            "scent_profile": "Fresh",
+            "price": "3.5",
+            "sku": "LGWM003",
+            "image": "wax_bar3.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "category": 3,
+            "name": "Cedarwood Whisper",
+            "description": "Indulge your senses with Cedarwood Whisper wax snap bar, embracing the earthy richness of cedarwood with subtle undertones of warm spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a comforting and grounding aroma, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Woody",
+            "price": "3.5",
+            "sku": "LGWM004",
+            "image": "wax_bar4.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "category": 3,
+            "name": "Vanilla Orchid Harmony",
+            "description": "Indulge your senses with Vanilla Orchid Harmony wax snap bar, blending the sweet indulgence of vanilla with the exotic allure of orchid blossoms. Handcrafted to perfection, using 100% soy wax, each bar releases a harmonious blend of comforting sweetness and floral elegance, creating a soothing and inviting ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Floral, Oriental",
+            "price": "3.5",
+            "sku": "LGWM005",
+            "image": "wax_bar5.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "category": 3,
+            "name": "Jasmine Dreamland",
+            "description": "Indulge your senses with Jasmine Dreamland wax snap bar, enveloping you in the intoxicating fragrance of jasmine blooms and hints of fresh greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a dreamy and enchanting aroma, transporting you to a serene garden paradise. Experience pure luxury in every melt.",
+            "scent_profile": "Floral",
+            "price": "3.5",
+            "sku": "LGWM006",
+            "image": "wax_bar6.jpeg"
+            }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "category": 3,
+            "name": "Apple Orchard Joy",
+            "description": "Indulge your senses with Apple Orchard Joy wax snap bar, capturing the crisp essence of freshly picked apples, accented with notes of warm cinnamon and a hint of caramel sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a joyful and invigorating aroma, reminiscent of autumn days spent in the orchard. Experience pure luxury in every melt.",
+            "scent_profile": "Fruity",
+            "price": "3.5",
+            "sku": "LGWM007",
+            "image": "wax_bar7.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "category": 3,
+            "name": "Sandalwood Sunset",
+            "description": "Indulge your senses with Sandalwood Sunset wax snap bar, infusing your space with the warm and woody aroma of sandalwood, enhanced by hints of exotic spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a rich and seductive fragrance, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Woody",
+            "price": "3.5",
+            "sku": "LGWM008",
+            "image": "wax_bar8.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "category": 3,
+            "name": "Rose Garden Romance",
+            "description": "Indulge your senses with Rose Garden Romance wax snap bar, capturing the timeless allure of freshly bloomed roses, intertwined with delicate floral notes and a hint of powdery sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and enchanting aroma, evoking the beauty of a lush rose garden in full bloom. Experience pure luxury in every melt.",
+            "scent_profile": "Floral",
+            "price": "3.5",
+            "sku": "LGWM009",
+            "image": "wax_bar9.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "category": 3,
+            "name": "Pine Forest Escape",
+            "description": "Indulge your senses with Pine Forest Escape wax snap bar, immersing you in the crisp fragrance of pine needles, mingled with earthy undertones of moss and cedarwood. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and invigorating aroma, reminiscent of a rejuvenating walk through a serene forest. Experience pure luxury in every melt.",
+            "scent_profile": "Fresh, Woody",
+            "price": "3.5",
+            "sku": "LGWM010",
+            "image": "wax_bar10.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "category": 3,
+            "name": "Lemon Zest Zing",
+            "description": "Indulge your senses with Lemon Zest Zing wax snap bar, awakening your space with the bright and tangy scent of freshly squeezed lemons, accented by hints of zesty citrus peel. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of refreshing energy, creating a lively and invigorating ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Fresh, Fruity",
+            "price": "3.5",
+            "sku": "LGWM011",
+            "image": "wax_bar11.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "category": 3,
+            "name": "Tropical Oasis Escape",
+            "description": "Indulge your senses with Tropical Oasis Escape wax snap bar, whisking you away to a sun-drenched paradise with the lush fragrance of tropical fruits, coconut palms, and a hint of ocean breeze. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and exotic aroma, evoking memories of carefree days spent on sandy shores. Experience pure luxury in every melt.",
+            "scent_profile": "Fruity, Fresh",
+            "price": "3.5",
+            "sku": "LGWM012",
+            "image": "wax_bar12.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "category": 3,
+            "name": "Musk Mystique",
+            "description": "Indulge your senses with Musk Mystique wax snap bar, enveloping you in the captivating allure of musk, heightened by subtle hints of amber, patchouli, and vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a seductive and mysterious fragrance, creating an alluring and enchanting ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Oriental",
+            "price": "3.5",
+            "sku": "LGWM013",
+            "image": "wax_bar13.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "category": 3,
+            "name": "Peony Petals Pleasure",
+            "description": "Indulge your senses with Peony Petals Pleasure wax snap bar, blooming with the lush fragrance of fresh peony blossoms, accentuated by delicate hints of rose and powdery florals. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and intoxicating aroma, evoking the beauty of a springtime garden in full bloom. Experience pure luxury in every melt.",
+            "scent_profile": "Floral",
+            "price": "3.5",
+            "sku": "LGWM014",
+            "image": "wax_bar14.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "category": 3,
+            "name": "Cinnamon Spice Delight",
+            "description": "Indulge your senses with Cinnamon Spice Delight wax snap bar, warming your space with the comforting aroma of cinnamon, clove, and nutmeg, accented by hints of vanilla and warm amber. Handcrafted to perfection, using 100% soy wax, each bar releases a cozy and inviting fragrance, evoking memories of festive gatherings and holiday cheer. Experience pure luxury in every melt.",
+            "scent_profile": "Oriental, Spicy",
+            "price": "3.5",
+            "sku": "LGWM015",
+            "image": "wax_bar15.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "category": 3,
+            "name": "Bergamot Bliss",
+            "description": "Indulge your senses with Bergamot Bliss wax snap bar, infusing your space with the uplifting fragrance of bergamot citrus, balanced by subtle hints of fresh greenery and a touch of floral sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a bright and invigorating aroma, creating a refreshing and rejuvenating ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Fresh, Fruity",
+            "price": "3.5",
+            "sku": "LGWM016",
+            "image": "wax_bar16.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "category": 3,
+            "name": "Coconut Cove Calm",
+            "description": "Indulge your senses with Coconut Cove Calm wax snap bar, transporting you to a tranquil tropical oasis with the soothing fragrance of coconut, blended with creamy vanilla and hints of tropical fruits. Handcrafted to perfection, using 100% soy wax, each bar releases a relaxing and exotic aroma, evoking the serenity of sun-kissed shores and swaying palms. Experience pure luxury in every melt.",
+            "scent_profile": "Fruity",
+            "price": "3.5",
+            "sku": "LGWM017",
+            "image": "wax_bar17.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "category": 3,
+            "name": "Patchouli Passion",
+            "description": "Indulge your senses with Patchouli Passion wax snap bar, embracing you in the earthy and exotic aroma of patchouli, enhanced by hints of spicy clove, amber, and sandalwood. Handcrafted to perfection, using 100% soy wax, each bar releases a passionate and sensual fragrance, creating an intimate and captivating ambiance in any space. Experience pure luxury in every melt.",
+            "scent_profile": "Woody, Oriental",
+            "price": "3.5",
+            "sku": "LGWM018",
+            "image": "wax_bar18.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "category": 3,
+            "name": "Eucalyptus Elation",
+            "description": "Indulge your senses with Eucalyptus Elation wax snap bar, refreshing your space with the invigorating fragrance of eucalyptus, uplifted by crisp notes of mint and hints of herbal greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a revitalizing and energizing aroma, creating a spa-like ambiance of purity and tranquility. Experience pure luxury in every melt.",
+            "scent_profile": "Woody, Fresh",
+            "price": "3.5",
+            "sku": "LGWM019",
+            "image": "wax_bar19.jpeg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "category": 3,
+            "name": "Berry Burst Bliss",
+            "description": "Indulge your senses with Berry Burst Bliss wax snap bar, bursting with the luscious fragrance of ripe berries, including strawberries, raspberries, and blueberries, accented by hints of sweet vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a fruity and indulgent aroma, evoking the vibrant freshness of a summer berry patch. Experience pure luxury in every melt.",
+            "scent_profile": "Fruity",
+            "price": "3.5",
+            "sku": "LGWM020",
+            "image": "wax_bar20.jpeg"
+        }
+    }
+]
