@@ -1,0 +1,29 @@
+[
+    {
+    "model": "faqs.FAQCategory",
+    "pk": 1,
+    "fields": {
+        "name": "products",
+        "friendly_name": "Products FAQ"
+        }
+},
+
+{
+    "model": "faqs.FAQCategory",
+    "pk": 2,
+    "fields": {
+        "name": "orders_delivery",
+        "friendly_name": "Orders and Delivery FAQ"
+        }
+},
+
+{
+    "model": "faqs.FAQCategory",
+    "pk": 3,
+    "fields": {
+        "name": "contact_us",
+        "friendly_name": "Contact Us FAQ"
+        }
+}
+
+]
