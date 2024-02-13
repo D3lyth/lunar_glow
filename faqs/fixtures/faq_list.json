@@ -1,0 +1,212 @@
+[
+    {
+      "model": "faqs.FAQ_QA",
+      "pk": 1,
+      "fields": {
+        "faq_category": 1,
+        "question": "What materials are your candles made from?",
+        "answer": "Our candles are made from high-quality soy wax, which is a renewable resource and burns cleaner than traditional paraffin wax."
+      }
+    },
+
+    {
+        "model": "faqs.FAQ_QA",
+        "pk": 2,
+        "fields": {
+          "faq_category": 1,
+          "question": "Do your candles contain any harmful chemicals?",
+          "answer": "No, our candles are free from harmful chemicals like lead, phthalates, and parabens, making them safe for you and your family to enjoy."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 3,
+        "fields": {
+          "faq_category": 1,
+          "question": "Are your candles made from natural ingredients?",
+          "answer": "Yes, our candles are made from natural soy wax, infused with premium fragrance oils and essential oils for delightful scents."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 4,
+        "fields": {
+          "faq_category": 1,
+          "question": "Are your candles vegan-friendly?",
+          "answer": "Yes, our candles are 100% vegan-friendly and cruelty-free. We never use animal-derived ingredients or test on animals."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 5,
+        "fields": {
+          "faq_category": 1,
+          "question": "Do you use sustainable packaging for your candles?",
+          "answer": "Absolutely! We are committed to sustainability and use eco-friendly packaging materials that are recyclable and biodegradable."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 6,
+        "fields": {
+          "faq_category": 1,
+          "question": "How should I care for my candles to ensure optimal burning?",
+          "answer": "To ensure optimal burning, always trim the wick to 1/4 inch before lighting, and allow the wax to melt evenly across the surface of the candle on each use."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 7,
+        "fields": {
+          "faq_category": 1,
+          "question": "Are your candles suitable for allergy sufferers?",
+          "answer": "Our candles are made with hypoallergenic ingredients and are suitable for most allergy sufferers. However, we recommend testing a small area first if you have specific sensitivities."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 8,
+        "fields": {
+          "faq_category": 2,
+          "question": "How can I place an order on your website?",
+          "answer": "Placing an order on our website is simple! Just browse through our products, select the items you'd like to purchase, add them to your cart, and proceed to checkout. Follow the prompts to enter your shipping and payment details, and you're all set!"
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 9,
+        "fields": {
+          "faq_category": 2,
+          "question": "Can I modify or cancel my order after it's been placed?",
+          "answer": "We process orders quickly to ensure prompt delivery. If you need to modify or cancel your order, please contact our customer service team as soon as possible. We'll do our best to accommodate your request, but please note that once an order has been processed, changes may not be possible."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 10,
+        "fields": {
+          "faq_category": 2,
+          "question": "How can I track the status of my order?",
+          "answer": "Once your order has been shipped, you'll receive a shipping confirmation email with tracking information. You can use this information to track the status of your delivery and monitor its progress until it reaches your doorstep."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 11,
+        "fields": {
+          "faq_category": 2,
+          "question": "What payment methods do you accept?",
+          "answer": "We accept a variety of payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and other secure payment options. Rest assured, your payment information is encrypted and processed securely."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 12,
+        "fields": {
+          "faq_category": 3,
+          "question": "How can I contact your customer service team?",
+          "answer": "You can contact our customer service team via email at support@lunarglow.com or by filling out the contact form on our website. Our dedicated representatives are here to assist you with any questions or concerns you may have."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 13,
+        "fields": {
+          "faq_category": 3,
+          "question": "What are your customer service hours?",
+          "answer": "Our customer service team is available to assist you Monday through Friday from 9:00 AM to 5:00 PM (local time). We strive to respond to all inquiries promptly and provide the support you need in a timely manner."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 14,
+        "fields": {
+          "faq_category": 4,
+          "question": "How long does it take to receive a response to my inquiry?",
+          "answer": "We aim to respond to all customer inquiries within 24-48 hours during regular business hours. Please note that response times may vary during peak periods, but rest assured, we're working diligently to address your concerns as quickly as possible."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 15,
+        "fields": {
+          "faq_category": 4,
+          "question": "",
+          "answer": ""
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 16,
+        "fields": {
+          "faq_category": 4,
+          "question": "What information should I include when contacting customer service?",
+          "answer": "To help us assist you more effectively, please provide as much detail as possible when submitting your inquiry. This may include your order number (if applicable), a detailed description of the issue or question, and any relevant screenshots or documentation."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 17,
+        "fields": {
+          "faq_category": 4,
+          "question": "What should I do if I encounter an issue with my order or need to make a return?",
+          "answer": "If you encounter any issues with your order or need to initiate a return or exchange, please reach out to our customer service team as soon as possible. We'll work with you to address the issue and ensure your complete satisfaction with your purchase."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 18,
+        "fields": {
+          "faq_category": 4,
+          "question": "",
+          "answer": ""
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 19,
+        "fields": {
+          "faq_category": 5,
+          "question": "Are wax melts safe to use?",
+          "answer": "Yes, wax melts are generally safe to use when used according to the manufacturer's instructions. It's important to follow proper safety guidelines to prevent accidents."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 20,
+        "fields": {
+          "faq_category": 5,
+          "question": "How can I prevent accidents while using candles?",
+          "answer": "Always trim candle wicks to 1/4 inch before each use to prevent excessive smoke and soot. Keep candles away from drafts, vents, and air currents to prevent uneven burning. Keep candles and wax burners away from curtains, bedding, and other flammable materials."
+        }
+      },
+
+      {
+        "model": "faqs.FAQ_QA",
+        "pk": 21,
+        "fields": {
+          "faq_category": 5,
+          "question": "Can I leave a candle burning overnight?",
+          "answer": "It is not recommended to leave candles burning unattended or overnight. Always extinguish candles before leaving the room or going to sleep."
+        }
+      }
+
+]
