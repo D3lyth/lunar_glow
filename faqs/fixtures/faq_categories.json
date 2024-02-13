@@ -3,8 +3,8 @@
     "model": "faqs.FAQCategory",
     "pk": 1,
     "fields": {
-        "name": "products",
-        "friendly_name": "Products FAQ"
+        "name": "product_faqs",
+        "friendly_name": "Products FAQs"
         }
 },
 
@@ -12,8 +12,8 @@
     "model": "faqs.FAQCategory",
     "pk": 2,
     "fields": {
-        "name": "orders_delivery",
-        "friendly_name": "Orders and Delivery FAQ"
+        "name": "order_faqs",
+        "friendly_name": "Order FAQs"
         }
 },
 
@@ -21,8 +21,26 @@
     "model": "faqs.FAQCategory",
     "pk": 3,
     "fields": {
-        "name": "contact_us",
-        "friendly_name": "Contact Us FAQ"
+        "name": "delivery_faqs",
+        "friendly_name": "Delivery FAQs"
+        }
+},
+
+{
+    "model": "faqs.FAQCategory",
+    "pk": 4,
+    "fields": {
+        "name": "contact_faqs",
+        "friendly_name": "Contact Us FAQs"
+        }
+},
+
+{
+    "model": "faqs.FAQCategory",
+    "pk": 5,
+    "fields": {
+        "name": "safety_faqs",
+        "friendly_name": "Safety FAQs"
         }
 }
 
