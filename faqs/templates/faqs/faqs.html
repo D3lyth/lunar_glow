@@ -10,19 +10,34 @@
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
+    <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Frequently Asked Questions</h2>
                 <hr class="w-50 mb-1">
-                <ul>
+                <div class="accordion" id="faqAccordion">
                     {% for faq in faqs %}
-                        <li>{{ faq.question }}</li>
-                        <p>{{ faq.answer }}</p>
+                        <div class="card">
+                            <div class="card-header" id="heading{{ forloop.counter }}">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapse{{ forloop.counter }}" aria-expanded="true"
+                                            aria-controls="collapse{{ forloop.counter }}">
+                                        {{ faq.question }}
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapse{{ forloop.counter }}" class="collapse {% if forloop.first %} show {% endif %}"
+                                 aria-labelledby="heading{{ forloop.counter }}" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    {{ faq.answer }}
+                                </div>
+                            </div>
+                        </div>
                     {% endfor %}
-                </ul>
+                </div>
             </div>
         </div>
-</div>
+    </div>
 {% endblock %}
