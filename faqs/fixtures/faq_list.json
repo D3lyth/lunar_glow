@@ -144,8 +144,8 @@
         "pk": 15,
         "fields": {
           "faq_category": 4,
-          "question": "",
-          "answer": ""
+          "question": "Is there a phone number that I can call if I have any questions?",
+          "answer": "As we are a busy, small company, our phones are not always manned. However, you will be contacted quickly if you send us an e-mail to upport@lunarglow.com - these e-mails are checked continuously."
         }
       },
 
@@ -174,8 +174,8 @@
         "pk": 18,
         "fields": {
           "faq_category": 4,
-          "question": "",
-          "answer": ""
+          "question": "Do you have a physical address to pick up orders?",
+          "answer": "We do not have the facilities to allow the public to visit our production site at the moment. But our new store will be opening shortly for face to face customer services."
         }
       },
 
