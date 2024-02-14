@@ -9,6 +9,7 @@ class ProductAdmin(admin.ModelAdmin):
         'category',
         'description',
         'price',
+        'scent_profile',
         'image',
     )
 
