@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <!-- Modal -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="logo-font mb-4">Subscribe for Our Newsletter</h2>
+            <h5 class="mb-4">to hear about our new products and exclusive offers!</h5>
+            <form method="POST" action="{% url 'newsletter' %}" class="form mb-2" id="signup-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="name" name="name" placeholder="Enter your full name">
+                <input type="email" name="email" placeholder="Enter your email">
+                <div class="text-right">
+                    <button class="btn btn-outline-black rounded-0" id="cancel-button">Cancel</button>
+                    <button class="btn btn-black rounded-0" type="submit">Subscribe</button>
+                </div>
+            </form>
+                <!-- Thank you message -->
+                    <div id="thank-you-message" style="display: none;">
+                        <p>Thank you for subscribing!</p>
+                    </div>
+
+                    <button id="shop-button" style="display: none;">Go Shopping</button>
+        </div>
+    </div>
+{% endblock %}
+
+
+<!-- JavaScript -->
+<script src="{% static 'newsletter/modal.js' %}"></script>
+
+
+   
+
+

@@ -20,6 +20,7 @@
     {% endblock %}
 
     {% block extra_css %}
+        <link rel="stylesheet" type="text/css" href="{% static 'newsletter/modal.css' %}">
     {% endblock %}
 
     {% block corejs %}
@@ -32,6 +33,7 @@
         {% endblock %}
 
     {% block extra_js %}
+    <script src="{% static 'newsletter/modal.js' %}"></script>
     {% endblock %}
 
     <title>Lunar Glow {% block extra_title %}{% endblock %}</title>
