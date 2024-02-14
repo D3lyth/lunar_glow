@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Your Preferred Scent Profile</h2>
+  <p>The scent profile that best matches your preferences is: <strong>{{ preferred_profile }}</strong></p>
+
+  <h3>Products with {{ preferred_profile }} Scent Profile</h3>
+  <ul>
+    {% for product in products %}
+      <li>{{ product.name }} - {{ product.description }}</li>
+    {% empty %}
+      <li>No products available with this scent profile.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'profiles',
     'faqs',
     'newsletter',
+    'scentquiz',
 
     'crispy_forms',
 ]
@@ -80,6 +81,7 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
+            os.path.join(BASE_DIR, 'templates', 'scentquiz'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {

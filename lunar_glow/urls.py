@@ -29,6 +29,10 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('faqs/', include('faqs.urls')),
     path('newsletter/', include('newsletter.urls')),
+    path('scentquiz/', include('scentquiz.urls')),
+
+
+    # path('result/', include('scentquiz.urls')), 
     
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
