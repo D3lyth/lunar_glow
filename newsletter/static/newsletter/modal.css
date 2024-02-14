@@ -9,6 +9,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     overflow: auto;
+
 }
 
 .modal-content {
@@ -16,7 +17,7 @@
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    max-width: 80%;
 }
 
 .close {
@@ -34,3 +35,32 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+p.thank-you-message {
+
+margin-top: 0;
+margin-bottom: 1rem;
+text-align: center;
+padding-top: 3%;
+font-size: 2em;
+
+}
+
+#shop-button {
+    width: fit-content;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
