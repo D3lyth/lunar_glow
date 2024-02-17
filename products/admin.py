@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category, ScentProfile
 
 # Models
 
@@ -14,6 +14,12 @@ class ProductAdmin(admin.ModelAdmin):
     )
 
     ordering = ('sku',)
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == "scent_profile":
+            queryset = ScentProfile.objects.all()
+            kwargs["queryset"] = queryset
+        return super().formfield_for_foreignkey(db_field, request, **kwargs)
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
