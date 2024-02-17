@@ -1,0 +1,47 @@
+[
+    {
+        "model": "scentprofile.scentprofile",
+        "pk": 1,
+        "fields": {
+            "name": "Fresh",
+            "description": "In the realm of fragrances, there's an array of scents that captivate the senses and evoke various sensations. Among them, the scent of clean linen holds a special place, exuding crispness and purity that invigorate the spirit. Paired with the freshness of freshly cut grass, it creates a symphony of natural allure. Lemon zest adds a zing of brightness, infusing the air with a tangy sweetness that uplifts the mood. Meanwhile, the comforting embrace of an ocean breeze whispers of serenity and tranquility, wrapping you in a sense of ease and familiarity. For relaxation, the fragrance of rain-soaked earth resonates deeply, grounding you in the moment and washing away stress with its earthy essence. And who could forget the nostalgic charm of coconut sunscreen, transporting you to carefree days under the sun, filled with laughter and joy? If these scents resonate with you, then it's clear: your fauvorite scents are fresh scents, each one a delightful reminder of life's simple pleasures and natural beauty."
+        }
+    },
+
+    {
+        "model": "scentprofile.scentprofile",
+        "pk": 2,
+        "fields": {
+            "name": "Oriental",
+            "description": "Amidst the tapestry of fragrances, oriental aromas stand as beacons of allure and mystery, evoking visions of distant lands and ancient traditions. The tantalizing blend of cinnamon, spices, patchouli, and musk creates a sanctuary of tranquility and warmth, while the soothing embrace of incense and myrrh beckons one to find solace within. Memories of shared moments over spiced chai tea linger like whispers in the wind, echoing tales of camaraderie and comfort. These fragrances, with their rich histories and elegant compositions, offer not just scents but stories, inviting you to explore the depths of the soul. If these resonate with you, then it's clear: your favourite fragrances are oriental, each one a journey into the depths of the soul, rich with history and steeped in elegance."
+        }
+    },
+
+    {
+        "model": "scentprofile.scentprofile",
+        "pk": 3,
+        "fields": {
+            "name": "Floral",
+            "description": "Amidst the symphony of fragrances, floral scents emerge as delicate petals adorning nature's canvas, evoking sentiments of grace and beauty. The scent of baby talc powder envelops the senses with its gentle innocence, reminiscent of the soft embrace of newborns and the purity of youth. Aromas of rose petals dance delicately on the air, infusing surroundings with the timeless elegance and romantic allure of blooming gardens. In moments of solace, the comforting aroma of vanilla bean wraps around like a warm embrace, cocooning the soul in a blanket of sweetness and familiarity. The fragrance of lavender fields whispers of serenity and relaxation, transporting one to tranquil meadows kissed by the gentle breeze. Among the memories held dear, the fragrance of jasmine blossoms lingers like a cherished melody, evoking images of moonlit nights and secret gardens bathed in starlight. Each floral scent, with its unique essence and tender embrace, tells a story of beauty and grace, inviting you to revel in the splendor of nature's bounty. If these fragrances resonate with you, then it's clear: your favourite scents are floral, each one a delicate reminder of life's most exquisite moments and the enduring power of nature's love."
+        }
+    },
+
+    {
+        "model": "scentprofile.scentprofile",
+        "pk": 4,
+        "fields": {
+            "name": "Woody",
+            "description": "Within the realm of fragrance, woody scents emerge like ancient forests, offering a sense of grounding and timeless allure. The scent of old books fills the air with the nostalgic charm of leather-bound tomes, evoking memories of quiet libraries and moments lost in the pages of history. Aromas of sandalwood beckon with their warm and exotic embrace, weaving tales of distant lands and sacred rituals. In moments of solace, the comforting aroma of cedarwood envelops the senses like a familiar friend, imparting a sense of stability and security amidst life's uncertainties. The fragrance of pine forest carries whispers of tranquility and peace, leading one to lush green landscapes and the gentle rustle of leaves. Among the cherished recollections, the aroma of leather-bound books lingers like a cherished heirloom, a testament to the enduring power of stories and the wisdom they hold. Each woody scent, with its rugged elegance and earthy resonance, speaks to the soul's longing for connection and rootedness in the natural world. If these fragrances resonate with you, then it's clear: your favourite scents are woody, each one a journey into the depths of history and the enduring beauty of the wilderness."
+        }
+    },
+
+    {
+        "model": "scentprofile.scentprofile",
+        "pk": 5,
+        "fields": {
+            "name": "Fruity",
+            "description": "In the realm of fragrances, fruity scents emerge like a vibrant orchard in full bloom, offering a symphony of freshness and sweetness. The scent of a fresh bowl of fruit salad fills the air with the tantalizing promise of nature's bounty, evoking memories of sunny picnics and joyous gatherings. Aromas of strawberry fields beckon with their luscious sweetness, painting visions of endless summer days and ripe, juicy berries. In moments of solace, the comforting aroma of ripe peaches envelops the senses like a warm hug, transporting one to orchards laden with golden fruit and the promise of abundance. The fragrance of citrus burst carries hints of zesty brightness, infusing surroundings with a sense of invigoration and renewal. Among cherished memories, the aroma of juicy watermelon lingers like a refreshing breeze on a hot summer's day, sparking visions of laughter and carefree moments shared under the sun. Each fruity scent, with its playful charm and mouthwatering allure, speaks to the heart's longing for joy and simplicity in life's moments. If these fragrances resonate with you, then it's clear: your favourite scents are fruity, each one a delightful reminder of life's abundant blessings and the sweetness found in every moment."
+        }
+    }
+
+]
