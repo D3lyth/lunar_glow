@@ -24,12 +24,11 @@
                 {% for scentoption in scentoptions %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
                     <div>{{ scentoption.name }}</div>
-                    <img src="{% static 'path_to_your_image_here.jpg' %}" class="d-block w-100" alt="...">
+                    <!-- <img src="{% static 'path_to_your_image_here.jpg' %}" class="d-block w-100" alt="..."> -->
                     <div>{{ scentoption.description }}</div>
                     <!-- Inside your carousel template -->
-                    <div class="text-center"> <!-- Center align the button -->
-                        
-                        <a href="{% url 'scentselection' scentoption.name %}" class="btn btn-primary scentbutton">Select {{ scentoption.name }}</a>
+                    <div class="text-center"> 
+                        <a href="{% url 'scentselection' scentoption.id %}" class="btn btn-primary scentbutton">Select {{ scentoption.name }}</a>
                     </div>
                 </div>
                 {% endfor %}
