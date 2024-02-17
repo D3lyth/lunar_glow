@@ -1,678 +1,678 @@
 [
-    {
-      "model": "products.product",
-      "pk": 1,
-      "fields": {
-        "category": 3,
-        "name": "Lavender Fields Bliss",
-        "description": "Indulge your senses with Lavender Fields Bliss wax snap bar, blending the calming essence of French lavender and gentle chamomile with a hint of tropical coconut. Handcrafted to perfection, using 100% soy wax, each bar releases a symphony of scents, creating a tranquil and serene ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Floral",
-        "price": 3.5,
-        "sku": "LGWM001",
-        "image": "wax_bar1.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 2,
-      "fields": {
-        "category": 3,
-        "name": "Citrus Grove Delight",
-        "description": "Indulge your senses with Citrus Grove Delight wax snap bar, marrying the invigorating aroma of zesty lemon, ripe oranges, and tangy grapefruits. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of citrus freshness, creating an uplifting and revitalizing ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM002",
-        "image": "wax_bar2.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 3,
-      "fields": {
-        "category": 3,
-        "name": "Ocean Mist Serenity",
-        "description": "Indulge your senses with Ocean Mist Serenity wax snap bar, capturing the essence of fresh sea breeze, salty air, and hints of oceanic florals. Handcrafted to perfection, using 100% soy wax, each bar releases a wave of tranquil serenity, evoking memories of seaside escapes and peaceful moments. Experience pure luxury in every melt.",
-        "scent_profile": "Fresh",
-        "price": 3.5,
-        "sku": "LGWM003",
-        "image": "wax_bar3.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 4,
-      "fields": {
-        "category": 3,
-        "name": "Cedarwood Whisper",
-        "description": "Indulge your senses with Cedarwood Whisper wax snap bar, embracing the earthy richness of cedarwood with subtle undertones of warm spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a comforting and grounding aroma, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Woody",
-        "price": 3.5,
-        "sku": "LGWM004",
-        "image": "wax_bar4.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 5,
-      "fields": {
-        "category": 3,
-        "name": "Vanilla Orchid Harmony",
-        "description": "Indulge your senses with Vanilla Orchid Harmony wax snap bar, blending the sweet indulgence of vanilla with the exotic allure of orchid blossoms. Handcrafted to perfection, using 100% soy wax, each bar releases a harmonious blend of comforting sweetness and floral elegance, creating a soothing and inviting ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Floral",
-        "price": 3.5,
-        "sku": "LGWM005",
-        "image": "wax_bar5.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 6,
-      "fields": {
-        "category": 3,
-        "name": "Jasmine Dreamland",
-        "description": "Indulge your senses with Jasmine Dreamland wax snap bar, enveloping you in the intoxicating fragrance of jasmine blooms and hints of fresh greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a dreamy and enchanting aroma, transporting you to a serene garden paradise. Experience pure luxury in every melt.",
-        "scent_profile": "Floral",
-        "price": 3.5,
-        "sku": "LGWM006",
-        "image": "wax_bar6.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 7,
-      "fields": {
-        "category": 3,
-        "name": "Apple Orchard Joy",
-        "description": "Indulge your senses with Apple Orchard Joy wax snap bar, capturing the crisp essence of freshly picked apples, accented with notes of warm cinnamon and a hint of caramel sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a joyful and invigorating aroma, reminiscent of autumn days spent in the orchard. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM007",
-        "image": "wax_bar7.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 8,
-      "fields": {
-        "category": 3,
-        "name": "Sandalwood Sunset",
-        "description": "Indulge your senses with Sandalwood Sunset wax snap bar, infusing your space with the warm and woody aroma of sandalwood, enhanced by hints of exotic spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a rich and seductive fragrance, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Woody",
-        "price": 3.5,
-        "sku": "LGWM008",
-        "image": "wax_bar8.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 9,
-      "fields": {
-        "category": 3,
-        "name": "Rose Garden Romance",
-        "description": "Indulge your senses with Rose Garden Romance wax snap bar, capturing the timeless allure of freshly bloomed roses, intertwined with delicate floral notes and a hint of powdery sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and enchanting aroma, evoking the beauty of a lush rose garden in full bloom. Experience pure luxury in every melt.",
-        "scent_profile": "Floral",
-        "price": 3.5,
-        "sku": "LGWM009",
-        "image": "wax_bar9.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 10,
-      "fields": {
-        "category": 3,
-        "name": "Pine Forest Escape",
-        "description": "Indulge your senses with Pine Forest Escape wax snap bar, immersing you in the crisp fragrance of pine needles, mingled with earthy undertones of moss and cedarwood. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and invigorating aroma, reminiscent of a rejuvenating walk through a serene forest. Experience pure luxury in every melt.",
-        "scent_profile": "Fresh",
-        "price": 3.5,
-        "sku": "LGWM010",
-        "image": "wax_bar10.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 11,
-      "fields": {
-        "category": 3,
-        "name": "Lemon Zest Zing",
-        "description": "Indulge your senses with Lemon Zest Zing wax snap bar, awakening your space with the bright and tangy scent of freshly squeezed lemons, accented by hints of zesty citrus peel. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of refreshing energy, creating a lively and invigorating ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM011",
-        "image": "wax_bar11.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 12,
-      "fields": {
-        "category": 3,
-        "name": "Tropical Oasis Escape",
-        "description": "Indulge your senses with Tropical Oasis Escape wax snap bar, whisking you away to a sun-drenched paradise with the lush fragrance of tropical fruits, coconut palms, and a hint of ocean breeze. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and exotic aroma, evoking memories of carefree days spent on sandy shores. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM012",
-        "image": "wax_bar12.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 13,
-      "fields": {
-        "category": 3,
-        "name": "Musk Mystique",
-        "description": "Indulge your senses with Musk Mystique wax snap bar, enveloping you in the captivating allure of musk, heightened by subtle hints of amber, patchouli, and vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a seductive and mysterious fragrance, creating an alluring and enchanting ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Oriental",
-        "price": 3.5,
-        "sku": "LGWM013",
-        "image": "wax_bar13.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 14,
-      "fields": {
-        "category": 3,
-        "name": "Peony Petals Pleasure",
-        "description": "Indulge your senses with Peony Petals Pleasure wax snap bar, blooming with the lush fragrance of fresh peony blossoms, accentuated by delicate hints of rose and powdery florals. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and intoxicating aroma, evoking the beauty of a springtime garden in full bloom. Experience pure luxury in every melt.",
-        "scent_profile": "Floral",
-        "price": 3.5,
-        "sku": "LGWM014",
-        "image": "wax_bar14.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 15,
-      "fields": {
-        "category": 3,
-        "name": "Cinnamon Spice Delight",
-        "description": "Indulge your senses with Cinnamon Spice Delight wax snap bar, warming your space with the comforting aroma of cinnamon, clove, and nutmeg, accented by hints of vanilla and warm amber. Handcrafted to perfection, using 100% soy wax, each bar releases a cozy and inviting fragrance, evoking memories of festive gatherings and holiday cheer. Experience pure luxury in every melt.",
-        "scent_profile": "Oriental",
-        "price": 3.5,
-        "sku": "LGWM015",
-        "image": "wax_bar15.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 16,
-      "fields": {
-        "category": 3,
-        "name": "Bergamot Bliss",
-        "description": "Indulge your senses with Bergamot Bliss wax snap bar, infusing your space with the uplifting fragrance of bergamot citrus, balanced by subtle hints of fresh greenery and a touch of floral sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a bright and invigorating aroma, creating a refreshing and rejuvenating ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Fresh",
-        "price": 3.5,
-        "sku": "LGWM016",
-        "image": "wax_bar16.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 17,
-      "fields": {
-        "category": 3,
-        "name": "Coconut Cove Calm",
-        "description": "Indulge your senses with Coconut Cove Calm wax snap bar, transporting you to a tranquil tropical oasis with the soothing fragrance of coconut, blended with creamy vanilla and hints of tropical fruits. Handcrafted to perfection, using 100% soy wax, each bar releases a relaxing and exotic aroma, evoking the serenity of sun-kissed shores and swaying palms. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM017",
-        "image": "wax_bar17.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 18,
-      "fields": {
-        "category": 3,
-        "name": "Patchouli Passion",
-        "description": "Indulge your senses with Patchouli Passion wax snap bar, embracing you in the earthy and exotic aroma of patchouli, enhanced by hints of spicy clove, amber, and sandalwood. Handcrafted to perfection, using 100% soy wax, each bar releases a passionate and sensual fragrance, creating an intimate and captivating ambiance in any space. Experience pure luxury in every melt.",
-        "scent_profile": "Woody",
-        "price": 3.5,
-        "sku": "LGWM018",
-        "image": "wax_bar18.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 19,
-      "fields": {
-        "category": 3,
-        "name": "Eucalyptus Elation",
-        "description": "Indulge your senses with Eucalyptus Elation wax snap bar, refreshing your space with the invigorating fragrance of eucalyptus, uplifted by crisp notes of mint and hints of herbal greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a revitalizing and energizing aroma, creating a spa-like ambiance of purity and tranquility. Experience pure luxury in every melt.",
-        "scent_profile": "Fresh",
-        "price": 3.5,
-        "sku": "LGWM019",
-        "image": "wax_bar19.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 20,
-      "fields": {
-        "category": 3,
-        "name": "Berry Burst Bliss",
-        "description": "Indulge your senses with Berry Burst Bliss wax snap bar, bursting with the luscious fragrance of ripe berries, including strawberries, raspberries, and blueberries, accented by hints of sweet vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a fruity and indulgent aroma, evoking the vibrant freshness of a summer berry patch. Experience pure luxury in every melt.",
-        "scent_profile": "Fruity",
-        "price": 3.5,
-        "sku": "LGWM020",
-        "image": "wax_bar20.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 21,
-      "fields": {
-        "category": 5,
-        "name": "Colour Burner",
-        "description": "Ceramic wax burner has a generous coloured shallow bowl for melts. This burner stands approximately 12cm high and it can burn 1-3 melts and casts pretty shadows around your room as the candlelight flickers inside. Colour will be chosen at random.",
-        "scent_profile": null,
-        "price": 8.99,
-        "sku": "LGWM021",
-        "image": "burner1.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 22,
-      "fields": {
-        "category": 5,
-        "name": "Terracotta Star Burner",
-        "description": "Enhance your home with the rustic charm of our Terracotta Star Wax Melt Burner. Crafted from high-quality terracotta clay, this burner features a charming star design that adds a touch of warmth and character to any space. Simply place a wax melt on the top dish, light a tealight candle below, and enjoy the enchanting aroma as it fills your room. The porous nature of terracotta allows for gradual and consistent melting of your favourite wax melts, ensuring a long-lasting and delightful fragrance experience. Perfect for creating a cozy atmosphere in living rooms, bedrooms, or any corner of your home, our Terracotta Star Wax Melt Burner makes a beautiful addition to your decor.",
-        "scent_profile": null,
-        "price": 12.99,
-        "sku": "LGWM022",
-        "image": "burner2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 23,
-      "fields": {
-        "category": 5,
-        "name": "Moon Burner",
-        "description": "Add a touch of celestial elegance to your space with our White Moon-Shaped Ceramic Burner. Crafted from premium ceramic, this burner features a graceful moon design that adds a sense of serenity and charm to any room. The smooth white finish complements a variety of decor styles, making it a versatile addition to your home. Simply place your favourite wax melt on the top dish, light a tealight candle inside, and watch as the gentle warmth releases the enchanting aroma throughout your space. Ideal for creating a cozy atmosphere in bedrooms, living rooms, or meditation spaces, our White Moon-Shaped Ceramic Burner brings a sense of tranquility and beauty to your home decor.",
-        "scent_profile": null,
-        "price": 10.99,
-        "sku": "LGWM023",
-        "image": "burner3.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 24,
-      "fields": {
-        "category": 5,
-        "name": "White Ceramic Burner",
-        "description": "Elevate your home fragrance experience with our White Ceramic Burner. Crafted from high-quality ceramic, this burner exudes elegance and simplicity, making it a versatile addition to any space. Its sleek and minimalist design seamlessly blends with various decor styles, adding a touch of sophistication to your home.",
-        "scent_profile": null,
-        "price": 9.99,
-        "sku": "LGWM024",
-        "image": "burner4.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 25,
-      "fields": {
-        "category": 5,
-        "name": "Wax Burner Gift Set",
-        "description": "Treat yourself or someone special to the ultimate home fragrance experience with our Wax Burner Gift Set. This beautifully curated set includes everything you need to create a cozy and inviting atmosphere in any space. The set includes a white ceramic burner, an assortment of wax melts and tealights, all presented in a sleek gift box.",
-        "scent_profile": null,
-        "price": 15.99,
-        "sku": "LGWM025",
-        "image": "burner_gift_pack.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 26,
-      "fields": {
-        "category": 5,
-        "name": "Ceramic House Burner",
-        "description": "Infuse your living space with warmth and charm using our White Ceramic House Tealight Holder/Burner. This delightful burner, shaped like a miniature house, adds a touch of whimsy to any room while providing an elegant decorative ornament for any home.",
-        "scent_profile": null,
-        "price": 12.99,
-        "sku": "LGWM026",
-        "image": "burner5.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 27,
-      "fields": {
-        "category": 7,
-        "name": "Candle Snuffer",
-        "description": "Elevate your candle experience with our sleek and stylish Candle Snuffer. Crafted with durable metal and finished in a classic matte black, this elegant snuffer is designed to extinguish candles safely and efficiently, without the need for blowing. Its 15cm-long handle ensures a comfortable grip and allows you to reach candles in tall holders or lanterns with ease. Say goodbye to messy wax splatters and preserve the integrity of your candles with our sophisticated Black Candle Snuffer. Add a touch of sophistication to your candle rituals and enjoy the convenience of effortless extinguishing.",
-        "scent_profile": null,
-        "price": 10.99,
-        "sku": "LGWM027",
-        "image": "candle_snuffer.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 28,
-      "fields": {
-        "category": 7,
-        "name": "Tealights",
-        "description": "Illuminate your space with the gentle glow of our Pack of 30 Soy Wax Tealights, each offering a generous 4-hour burn time. Handcrafted with care from 100% natural soy wax, these tealights provide a clean and eco-friendly alternative to traditional paraffin candles. Perfect for creating a cozy ambiance in any room, our tealights emit a warm and inviting glow that enhances the atmosphere of your home. Whether for everyday use, special occasions, or relaxation rituals, our tealights offer long-lasting illumination and effortless elegance.",
-        "scent_profile": null,
-        "price": 9.99,
-        "sku": "LGWM028",
-        "image": "tealights.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 29,
-      "fields": {
-        "category": 7,
-        "name": "Wax Burner Liners",
-        "description": "Keep your wax burners clean and mess-free with our convenient Pack of 100 Wax Burner Liners. Designed to fit most standard wax melt warmers, these liners provide a hassle-free solution for changing scents or cleaning up wax residue. Simply place a liner in the dish of your wax burner before adding wax melts, and enjoy easy cleanup after use. Made from high-quality, heat-resistant material, our wax burner liners are durable and safe to use with all types of wax melts. Say goodbye to scraping and scrubbing, and simplify your wax melting experience with our Pack of 100 Wax Burner Liners.",
-        "scent_profile": null,
-        "price": 5.99,
-        "sku": "LGWM029",
-        "image": "burner_liners.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 30,
-      "fields": {
-        "category": 7,
-        "name": "Luxury Matches Jar",
-        "description": "Luxury Long Colourful Matches in a bottle. These bottles of matches are practical but can also be used a a decorative feature. Each match is 10cm long, perfect for lighting candles the BBQ/Fire Pit or to display next to your fireplace. Over 100 long matches in a stylish glass bottle with a wooden stopper and strike pad on the base of the bottle.",
-        "scent_profile": null,
-        "price": 14.5,
-        "sku": "LGWM030",
-        "image": "matches.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 31,
-        "fields": {
-        "category": 7,
-        "name": "Refill Luxury Matches",
-        "description": "Refill Luxury Long Coloured Matches - Matches Only. Each refill pack contains 100 matches with 2 x strike pads to re-stick to your bottle. Matches are 10cm long. Please note this is matches only - bottle not included.",
-        "scent_profile": null,
-        "price": 7.99,
-        "sku": "LGWM031",
-        "image": "matches_refill.jpg"
-        }
-    },
-    {
-      "model": "products.product",
-      "pk": 32,
-      "fields": {
-        "category": 6,
-        "name": "Star Reed Diffuser",
-        "description": "Create a relaxing atmosphere & harmony for your home with our long lasting fragrance star reed diffuser hand poured by Lunar Glow. Diffuser glass jar has a 6cm diameter and come with 10 natural reed sticks. Comes in our best-selling clean linen scent.",
-        "scent_profile": "Fresh",
-        "price": 12.99,
-        "sku": "LGWM032",
-        "image": "diffuser2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 33,
-      "fields": {
-        "category": 6,
-        "name": "Amber Reed Diffuser",
-        "description": "Create a relaxing atmosphere & harmony for your home with our long lasting fragrance amber reed diffuser hand poured by Lunar Glow. Diffuser glass jar has a 6cm diameter and come with 10 natural reed sticks. Comes in one of our best-selling, spa serenity scent.",
-        "scent_profile": "Fresh",
-        "price": 12.99,
-        "sku": "LGWM033",
-        "image": "diffuser1.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 34,
-      "fields": {
-        "category": 1,
-        "name": "White Pillar Candles",
-        "description": "Illuminate your space with the warm glow of our unscented Soy Pillar Candles. Handcrafted with care and made from 100% natural soy wax, our pillar candles offer a clean and eco-friendly alternative to traditional paraffin candles. With their elegant design and long-lasting burn time, our soy pillar candles are perfect for creating a cozy atmosphere in any room.",
-        "scent_profile": null,
-        "price": 14.99,
-        "sku": "LGWM034",
-        "image": "pillar_candles.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 35,
-      "fields": {
-        "category": 1,
-        "name": "Short Candlestick Candles",
-        "description": "Elevate your dining experience with our pack of 5 Short Candlestick Candles, the perfect addition to any table setting. Crafted from high-quality unscented wax, these elegant candlesticks provide a classic touch to your d�cor while creating a warm and inviting ambiance. Whether for intimate dinners or festive gatherings, our short candlesticks offer versatility and charm. Enjoy the timeless beauty and flickering glow of candlelight with our unscented candlestick set, designed to illuminate every moment with understated elegance.",
-        "scent_profile": null,
-        "price": 9.99,
-        "sku": "LGWM035",
-        "image": "short_candles.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 36,
-      "fields": {
-        "category": 1,
-        "name": "Arch Candle",
-        "description": "Elevate your interior with our grand Large Arch Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
-        "scent_profile": null,
-        "price": 5.99,
-        "sku": "LGWM036",
-        "image": "arch_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 37,
-      "fields": {
-        "category": 1,
-        "name": "Large Bubble Candle",
-        "description": "Elevate your interior with our grand Large Bubble Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
-        "scent_profile": null,
-        "price": 6,
-        "sku": "LGWM037",
-        "image": "bubble_candle2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 38,
-      "fields": {
-        "category": 1,
-        "name": "Small Bubble Candle",
-        "description": "Elevate your interior with our grand Small Bubble Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
-        "scent_profile": null,
-        "price": 4.95,
-        "sku": "LGWM038",
-        "image": "bubble_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 39,
-      "fields": {
-        "category": 2,
-        "name": "Sweater Weather Amber Candle",
-        "description": "Embrace the cozy charm of autumn with our Sweater Weather Candle. Infused with the comforting essence of crisp fall air and warm, cuddly sweaters, this candle evokes the essence of the season. With notes of woodsy cedarwood, spicy cinnamon, and a hint of vanilla, \"Sweater Weather\" fills your space with a welcoming ambiance perfect for snuggling up indoors. Housed in a chic amber glass jar, our handcrafted soy candle adds a touch of rustic elegance to any room. Embrace the magic of Sweater Weather and let its comforting fragrance envelop you in a cozy embrace, making every moment feel like a cherished autumn day.",
-        "scent_profile": "Oriental",
-        "price": 14,
-        "sku": "LGWM039",
-        "image": "amber_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 40,
-      "fields": {
-        "category": 2,
-        "name": "Rhubarb and Elderflower Amber Candle",
-        "description": "Indulge in the refreshing allure of springtime with our Rhubarb and Elderflower Candle. Infused with the invigorating essence of blooming gardens and sun-dappled afternoons, this candle captures the essence of the season. With vibrant notes of tangy rhubarb and delicate elderflower, \"Rhubarb and Elderflower\" fills your space with a lively and uplifting ambiance, reminiscent of a leisurely stroll through lush meadows. Encased in a sleek amber glass jar, our handcrafted soy candle adds a touch of contemporary elegance to any setting.",
-        "scent_profile": "Fruity",
-        "price": 14,
-        "sku": "LGWM040",
-        "image": "amber_candle2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 41,
-      "fields": {
-        "category": 2,
-        "name": "Clean Linen Amber Candle",
-        "description": "Step into the crisp freshness of clean laundry with our Clean Linen Candle. Infused with the pure essence of freshly laundered linens billowing in the breeze, this candle captures the simple elegance of a tidy home. With delicate notes of cotton blossom and subtle hints of citrus, Clean Linen fills your space with a light and airy ambiance, evoking the comforting familiarity of home. Encased in a timeless amber glass jar, our handcrafted soy candle adds a touch of classic refinement to any room.",
-        "scent_profile": "Fresh",
-        "price": 14,
-        "sku": "LGWM041",
-        "image": "amber_candle3.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 42,
-      "fields": {
-        "category": 2,
-        "name": "Summertime Candle",
-        "description": "Transport yourself to the carefree days of summer with our Summertime Candle. Infused with the essence of sun-kissed beaches and lazy afternoons, this candle captures the vibrant spirit of the season. With invigorating notes of ripe citrus fruits and tropical blooms, Summertime fills your space with a refreshing and uplifting ambiance, reminiscent of a day spent basking in the sun. Encased in a chic clear glass jar, our handcrafted soy candle adds a touch of timeless elegance to any setting. Embrace the enchantment of Summertime and let its delightful fragrance whisk you away to a paradise of endless blue skies and gentle ocean breezes.",
-        "scent_profile": "Fruity",
-        "price": 14,
-        "sku": "LGWM042",
-        "image": "clear_jar_candle1.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 43,
-      "fields": {
-        "category": 2,
-        "name": "Country Meadow Candle",
-        "description": "Immerse yourself in the tranquil beauty of a sunlit meadow with our Country Meadow Candle. Infused with the essence of wildflowers swaying in the breeze and the gentle rustle of tall grass, this candle captures the serene charm of the countryside. With delicate notes of lavender, fresh herbs, and hints of citrus, Country Meadow fills your space with a peaceful and rejuvenating ambiance, evoking the beauty of nature's bounty. Encased in a clear glass jar, our handcrafted soy candle adds a touch of rustic charm to any room. Embrace the serenity of Country Meadow and let its enchanting fragrance transport you to a picturesque landscape of rolling hills and endless horizons.",
-        "scent_profile": "Floral",
-        "price": 14,
-        "sku": "LGWM043",
-        "image": "clear_jar_candle2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 44,
-      "fields": {
-        "category": 2,
-        "name": "French Lavender Concrete Candle",
-        "description": "Immerse yourself in a soothing embrace with our French Lavender Concrete Pot Candle. Infused with the timeless essence of fragrant lavender fields, delicate vanilla, and calming chamomile, this candle captures the essence of a tranquil countryside retreat. With enchanting notes of lavender blossoms, warm vanilla, and hints of chamomile, our candle fills your space with a sense of serenity and relaxation. Housed in a chic concrete pot, our handcrafted soy candle adds a touch of rustic elegance to any room. Let its enchanting fragrance transport you to a sun-drenched lavender field, where every moment feels like a cherished escape into nature's embrace.",
-        "scent_profile": "Floral",
-        "price": 16,
-        "sku": "LGWM044",
-        "image": "concrete_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 45,
-      "fields": {
-        "category": 2,
-        "name": "Copper Tin Candle",
-        "description": "Indulge in the radiant beauty of a blooming garden with our Peony and Bergamot Copper Tin Candle. Infused with the captivating essence of vibrant peony blossoms and uplifting bergamot, this candle captures the allure of a sun-kissed floral paradise. With enchanting notes of delicate peony petals and zesty bergamot, our candle fills your space with an invigorating and rejuvenating ambiance. Housed in a sleek copper tin, our handcrafted soy candle adds a touch of modern elegance to any room. Embrace the enchantment of Peony and Bergamot and let its delightful fragrance whisk you away to a fragrant garden oasis.",
-        "scent_profile": "Fresh",
-        "price": 10,
-        "sku": "LGWM045",
-        "image": "copper_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 46,
-      "fields": {
-        "category": 2,
-        "name": "White ceramic Candle",
-        "description": "Unwind in the rich, earthy embrace of our Tobacco and Oak Candle, nestled in a sleek White Ceramic Jar. Infused with the warm essence of aged tobacco leaves and rugged oak wood, this candle captures the depth and complexity of a refined gentlemen's study. With intoxicating notes of smoky tobacco and woody oak, our candle fills your space with a sense of timeless sophistication. Housed in a pristine white ceramic jar, our handcrafted soy candle adds a touch of understated elegance to any room. Embrace the allure of Tobacco and Oak and let its distinctive fragrance envelop you in a cozy retreat.",
-        "scent_profile": "Woody",
-        "price": 11,
-        "sku": "LGWM046",
-        "image": "white_ceramic_candle.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 47,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Fluffy Clouds",
-        "description": "Elevate your senses with Wax Melt Fluffy Clouds, a delightful collection of individual cloud-shaped wax melts in a refreshing summer breeze that includes hints of roses, jasmine, and lilie. Crafted with care, each pack contains five heavenly clouds designed to transport you to a sun-kissed paradise. Infused with the essence of a gentle summer breeze, these wax melts release a light and airy fragrance, evoking the serenity of floating among fluffy clouds on a warm afternoon. Let the essence of summer fill your space, bringing a touch of tranquility and joy with every melt. Experience the essence of pure bliss in every cloud-shaped wax melt.",
-        "scent_profile": "Floral",
-        "price": 10,
-        "sku": "LGWM047",
-        "image": "individual_wax_melts1.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 48,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Stars",
-        "description": "Introducing Wax Melt Stars, a delightful collection of star-shaped wax melts designed to elevate your space with a soothing and tranquil ambiance. Each pack contains 6 carefully crafted wax stars infused with a calming blend of scents, including the comforting scent of vanilla bean and sandalwood, offering a warm and inviting atmosphere that soothes the senses.",
-        "scent_profile": "Woody",
-        "price": 10,
-        "sku": "LGWM048",
-        "image": "individual_wax_melts2.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 49,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Rainbow Stars",
-        "description": "Introducing Wax Melt Stars, a delightful collection of raindow-coloured star-shaped wax melts designed to elevate your space with a fresh and fruity scent. Each pack contains 6 carefully crafted wax stars infused with a delightful blend of scents, including the sumptuous scent of cherry and lime, offering a warm and invigorating atmosphere that awakens the senses.",
-        "scent_profile": "Fruity",
-        "price": 10,
-        "sku": "LGWM049",
-        "image": "individual_wax_melts3.jpg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 50,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Stormy Clouds",
-        "description": "Introducing Wax Melt Stormy Clouds, an enchanting collection of individual cloud-shaped wax melts inspired by the raw power and rugged beauty of a stormy day. Each pack contains five bold clouds crafted to captivate your senses with a distinctly masculine fragrance. Infused with the essence of a stormy evening, these wax melts release a rich and invigorating aroma of cedarwood and leather.",
-        "scent_profile": "Woody",
-        "price": 10,
-        "sku": "LGWM050",
-        "image": "individual_wax_melts4.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 51,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Love Hearts",
-        "description": "Experience the enchanting allure of Wax Melt Love Hearts, a captivating assortment of heart-shaped wax melts crafted to infuse your surroundings with the delicate fragrance of blooming flowers and powdery elegance. Each pack unveils a treasure trove of six intricately designed wax hearts, radiating the essence of romance and serenity. Envelop yourself in a symphony of scents, including violets and cotton.",
-        "scent_profile": "Floral",
-        "price": 10,
-        "sku": "LGWM051",
-        "image": "individual_wax_melts5.jpeg"
-      }
-    },
-    {
-      "model": "products.product",
-      "pk": 52,
-      "fields": {
-        "category": 4,
-        "name": "Wax Melt Cosy Hearts",
-        "description": "Introducing Wax Melt Cosy Hearts, a charming ensemble of heart-shaped wax melts designed to envelop your space in warmth and comfort with a soothing, cosy scent. Each pack unveils a collection of six intricately crafted wax hearts, radiating the essence of homely tranquility and snug relaxation. Immerse yourself in a symphony of scents, including the luxurious scent of cozy cashmere woods, as woody notes mingle with soft musk, creating an ambiance of peaceful serenity.",
-        "scent_profile":4,
-        "price": 10,
-        "sku": "LGWM052",
-        "image": "individual_wax_melts6.jpeg"
-      }
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 3,
+      "name": "Lavender Fields Bliss",
+      "description": "Indulge your senses with Lavender Fields Bliss wax snap bar, blending the calming essence of French lavender and gentle chamomile with a hint of tropical coconut. Handcrafted to perfection, using 100% soy wax, each bar releases a symphony of scents, creating a tranquil and serene ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 3,
+      "price": 3.5,
+      "sku": "LGWM001",
+      "image": "wax_bar1.jpeg"
     }
-  ]
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 3,
+      "name": "Citrus Grove Delight",
+      "description": "Indulge your senses with Citrus Grove Delight wax snap bar, marrying the invigorating aroma of zesty lemon, ripe oranges, and tangy grapefruits. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of citrus freshness, creating an uplifting and revitalizing ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM002",
+      "image": "wax_bar2.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "Ocean Mist Serenity",
+      "description": "Indulge your senses with Ocean Mist Serenity wax snap bar, capturing the essence of fresh sea breeze, salty air, and hints of oceanic florals. Handcrafted to perfection, using 100% soy wax, each bar releases a wave of tranquil serenity, evoking memories of seaside escapes and peaceful moments. Experience pure luxury in every melt.",
+      "scent_profile": 1,
+      "price": 3.5,
+      "sku": "LGWM003",
+      "image": "wax_bar3.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "name": "Cedarwood Whisper",
+      "description": "Indulge your senses with Cedarwood Whisper wax snap bar, embracing the earthy richness of cedarwood with subtle undertones of warm spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a comforting and grounding aroma, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 4,
+      "price": 3.5,
+      "sku": "LGWM004",
+      "image": "wax_bar4.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "name": "Vanilla Orchid Harmony",
+      "description": "Indulge your senses with Vanilla Orchid Harmony wax snap bar, blending the sweet indulgence of vanilla with the exotic allure of orchid blossoms. Handcrafted to perfection, using 100% soy wax, each bar releases a harmonious blend of comforting sweetness and floral elegance, creating a soothing and inviting ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 3,
+      "price": 3.5,
+      "sku": "LGWM005",
+      "image": "wax_bar5.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "name": "Jasmine Dreamland",
+      "description": "Indulge your senses with Jasmine Dreamland wax snap bar, enveloping you in the intoxicating fragrance of jasmine blooms and hints of fresh greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a dreamy and enchanting aroma, transporting you to a serene garden paradise. Experience pure luxury in every melt.",
+      "scent_profile": 3,
+      "price": 3.5,
+      "sku": "LGWM006",
+      "image": "wax_bar6.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 3,
+      "name": "Apple Orchard Joy",
+      "description": "Indulge your senses with Apple Orchard Joy wax snap bar, capturing the crisp essence of freshly picked apples, accented with notes of warm cinnamon and a hint of caramel sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a joyful and invigorating aroma, reminiscent of autumn days spent in the orchard. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM007",
+      "image": "wax_bar7.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 3,
+      "name": "Sandalwood Sunset",
+      "description": "Indulge your senses with Sandalwood Sunset wax snap bar, infusing your space with the warm and woody aroma of sandalwood, enhanced by hints of exotic spices and amber. Handcrafted to perfection, using 100% soy wax, each bar releases a rich and seductive fragrance, creating a cozy and inviting ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 4,
+      "price": 3.5,
+      "sku": "LGWM008",
+      "image": "wax_bar8.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 3,
+      "name": "Rose Garden Romance",
+      "description": "Indulge your senses with Rose Garden Romance wax snap bar, capturing the timeless allure of freshly bloomed roses, intertwined with delicate floral notes and a hint of powdery sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and enchanting aroma, evoking the beauty of a lush rose garden in full bloom. Experience pure luxury in every melt.",
+      "scent_profile": 3,
+      "price": 3.5,
+      "sku": "LGWM009",
+      "image": "wax_bar9.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 3,
+      "name": "Pine Forest Escape",
+      "description": "Indulge your senses with Pine Forest Escape wax snap bar, immersing you in the crisp fragrance of pine needles, mingled with earthy undertones of moss and cedarwood. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and invigorating aroma, reminiscent of a rejuvenating walk through a serene forest. Experience pure luxury in every melt.",
+      "scent_profile": 1,
+      "price": 3.5,
+      "sku": "LGWM010",
+      "image": "wax_bar10.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "category": 3,
+      "name": "Lemon Zest Zing",
+      "description": "Indulge your senses with Lemon Zest Zing wax snap bar, awakening your space with the bright and tangy scent of freshly squeezed lemons, accented by hints of zesty citrus peel. Handcrafted to perfection, using 100% soy wax, each bar releases a burst of refreshing energy, creating a lively and invigorating ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM011",
+      "image": "wax_bar11.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "category": 3,
+      "name": "Tropical Oasis Escape",
+      "description": "Indulge your senses with Tropical Oasis Escape wax snap bar, whisking you away to a sun-drenched paradise with the lush fragrance of tropical fruits, coconut palms, and a hint of ocean breeze. Handcrafted to perfection, using 100% soy wax, each bar releases a refreshing and exotic aroma, evoking memories of carefree days spent on sandy shores. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM012",
+      "image": "wax_bar12.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "category": 3,
+      "name": "Musk Mystique",
+      "description": "Indulge your senses with Musk Mystique wax snap bar, enveloping you in the captivating allure of musk, heightened by subtle hints of amber, patchouli, and vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a seductive and mysterious fragrance, creating an alluring and enchanting ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 2,
+      "price": 3.5,
+      "sku": "LGWM013",
+      "image": "wax_bar13.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "category": 3,
+      "name": "Peony Petals Pleasure",
+      "description": "Indulge your senses with Peony Petals Pleasure wax snap bar, blooming with the lush fragrance of fresh peony blossoms, accentuated by delicate hints of rose and powdery florals. Handcrafted to perfection, using 100% soy wax, each bar releases a romantic and intoxicating aroma, evoking the beauty of a springtime garden in full bloom. Experience pure luxury in every melt.",
+      "scent_profile": 3,
+      "price": 3.5,
+      "sku": "LGWM014",
+      "image": "wax_bar14.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "category": 3,
+      "name": "Cinnamon Spice Delight",
+      "description": "Indulge your senses with Cinnamon Spice Delight wax snap bar, warming your space with the comforting aroma of cinnamon, clove, and nutmeg, accented by hints of vanilla and warm amber. Handcrafted to perfection, using 100% soy wax, each bar releases a cozy and inviting fragrance, evoking memories of festive gatherings and holiday cheer. Experience pure luxury in every melt.",
+      "scent_profile": 2,
+      "price": 3.5,
+      "sku": "LGWM015",
+      "image": "wax_bar15.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "category": 3,
+      "name": "Bergamot Bliss",
+      "description": "Indulge your senses with Bergamot Bliss wax snap bar, infusing your space with the uplifting fragrance of bergamot citrus, balanced by subtle hints of fresh greenery and a touch of floral sweetness. Handcrafted to perfection, using 100% soy wax, each bar releases a bright and invigorating aroma, creating a refreshing and rejuvenating ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 1,
+      "price": 3.5,
+      "sku": "LGWM016",
+      "image": "wax_bar16.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "category": 3,
+      "name": "Coconut Cove Calm",
+      "description": "Indulge your senses with Coconut Cove Calm wax snap bar, transporting you to a tranquil tropical oasis with the soothing fragrance of coconut, blended with creamy vanilla and hints of tropical fruits. Handcrafted to perfection, using 100% soy wax, each bar releases a relaxing and exotic aroma, evoking the serenity of sun-kissed shores and swaying palms. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM017",
+      "image": "wax_bar17.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "category": 3,
+      "name": "Patchouli Passion",
+      "description": "Indulge your senses with Patchouli Passion wax snap bar, embracing you in the earthy and exotic aroma of patchouli, enhanced by hints of spicy clove, amber, and sandalwood. Handcrafted to perfection, using 100% soy wax, each bar releases a passionate and sensual fragrance, creating an intimate and captivating ambiance in any space. Experience pure luxury in every melt.",
+      "scent_profile": 4,
+      "price": 3.5,
+      "sku": "LGWM018",
+      "image": "wax_bar18.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "category": 3,
+      "name": "Eucalyptus Elation",
+      "description": "Indulge your senses with Eucalyptus Elation wax snap bar, refreshing your space with the invigorating fragrance of eucalyptus, uplifted by crisp notes of mint and hints of herbal greenery. Handcrafted to perfection, using 100% soy wax, each bar releases a revitalizing and energizing aroma, creating a spa-like ambiance of purity and tranquility. Experience pure luxury in every melt.",
+      "scent_profile": 1,
+      "price": 3.5,
+      "sku": "LGWM019",
+      "image": "wax_bar19.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "category": 3,
+      "name": "Berry Burst Bliss",
+      "description": "Indulge your senses with Berry Burst Bliss wax snap bar, bursting with the luscious fragrance of ripe berries, including strawberries, raspberries, and blueberries, accented by hints of sweet vanilla. Handcrafted to perfection, using 100% soy wax, each bar releases a fruity and indulgent aroma, evoking the vibrant freshness of a summer berry patch. Experience pure luxury in every melt.",
+      "scent_profile": 5,
+      "price": 3.5,
+      "sku": "LGWM020",
+      "image": "wax_bar20.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+      "category": 5,
+      "name": "Colour Burner",
+      "description": "Ceramic wax burner has a generous coloured shallow bowl for melts. This burner stands approximately 12cm high and it can burn 1-3 melts and casts pretty shadows around your room as the candlelight flickers inside. Colour will be chosen at random.",
+      "scent_profile": null,
+      "price": 8.99,
+      "sku": "LGWM021",
+      "image": "burner1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+      "category": 5,
+      "name": "Terracotta Star Burner",
+      "description": "Enhance your home with the rustic charm of our Terracotta Star Wax Melt Burner. Crafted from high-quality terracotta clay, this burner features a charming star design that adds a touch of warmth and character to any space. Simply place a wax melt on the top dish, light a tealight candle below, and enjoy the enchanting aroma as it fills your room. The porous nature of terracotta allows for gradual and consistent melting of your favourite wax melts, ensuring a long-lasting and delightful fragrance experience. Perfect for creating a cozy atmosphere in living rooms, bedrooms, or any corner of your home, our Terracotta Star Wax Melt Burner makes a beautiful addition to your decor.",
+      "scent_profile": null,
+      "price": 12.99,
+      "sku": "LGWM022",
+      "image": "burner2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+      "category": 5,
+      "name": "Moon Burner",
+      "description": "Add a touch of celestial elegance to your space with our White Moon-Shaped Ceramic Burner. Crafted from premium ceramic, this burner features a graceful moon design that adds a sense of serenity and charm to any room. The smooth white finish complements a variety of decor styles, making it a versatile addition to your home. Simply place your favourite wax melt on the top dish, light a tealight candle inside, and watch as the gentle warmth releases the enchanting aroma throughout your space. Ideal for creating a cozy atmosphere in bedrooms, living rooms, or meditation spaces, our White Moon-Shaped Ceramic Burner brings a sense of tranquility and beauty to your home decor.",
+      "scent_profile": null,
+      "price": 10.99,
+      "sku": "LGWM023",
+      "image": "burner3.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+      "category": 5,
+      "name": "White Ceramic Burner",
+      "description": "Elevate your home fragrance experience with our White Ceramic Burner. Crafted from high-quality ceramic, this burner exudes elegance and simplicity, making it a versatile addition to any space. Its sleek and minimalist design seamlessly blends with various decor styles, adding a touch of sophistication to your home.",
+      "scent_profile": null,
+      "price": 9.99,
+      "sku": "LGWM024",
+      "image": "burner4.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+      "category": 5,
+      "name": "Wax Burner Gift Set",
+      "description": "Treat yourself or someone special to the ultimate home fragrance experience with our Wax Burner Gift Set. This beautifully curated set includes everything you need to create a cozy and inviting atmosphere in any space. The set includes a white ceramic burner, an assortment of wax melts and tealights, all presented in a sleek gift box.",
+      "scent_profile": null,
+      "price": 15.99,
+      "sku": "LGWM025",
+      "image": "burner_gift_pack.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+      "category": 5,
+      "name": "Ceramic House Burner",
+      "description": "Infuse your living space with warmth and charm using our White Ceramic House Tealight Holder/Burner. This delightful burner, shaped like a miniature house, adds a touch of whimsy to any room while providing an elegant decorative ornament for any home.",
+      "scent_profile": null,
+      "price": 12.99,
+      "sku": "LGWM026",
+      "image": "burner5.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+      "category": 7,
+      "name": "Candle Snuffer",
+      "description": "Elevate your candle experience with our sleek and stylish Candle Snuffer. Crafted with durable metal and finished in a classic matte black, this elegant snuffer is designed to extinguish candles safely and efficiently, without the need for blowing. Its 15cm-long handle ensures a comfortable grip and allows you to reach candles in tall holders or lanterns with ease. Say goodbye to messy wax splatters and preserve the integrity of your candles with our sophisticated Black Candle Snuffer. Add a touch of sophistication to your candle rituals and enjoy the convenience of effortless extinguishing.",
+      "scent_profile": null,
+      "price": 10.99,
+      "sku": "LGWM027",
+      "image": "candle_snuffer.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+      "category": 7,
+      "name": "Tealights",
+      "description": "Illuminate your space with the gentle glow of our Pack of 30 Soy Wax Tealights, each offering a generous 4-hour burn time. Handcrafted with care from 100% natural soy wax, these tealights provide a clean and eco-friendly alternative to traditional paraffin candles. Perfect for creating a cozy ambiance in any room, our tealights emit a warm and inviting glow that enhances the atmosphere of your home. Whether for everyday use, special occasions, or relaxation rituals, our tealights offer long-lasting illumination and effortless elegance.",
+      "scent_profile": null,
+      "price": 9.99,
+      "sku": "LGWM028",
+      "image": "tealights.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+      "category": 7,
+      "name": "Wax Burner Liners",
+      "description": "Keep your wax burners clean and mess-free with our convenient Pack of 100 Wax Burner Liners. Designed to fit most standard wax melt warmers, these liners provide a hassle-free solution for changing scents or cleaning up wax residue. Simply place a liner in the dish of your wax burner before adding wax melts, and enjoy easy cleanup after use. Made from high-quality, heat-resistant material, our wax burner liners are durable and safe to use with all types of wax melts. Say goodbye to scraping and scrubbing, and simplify your wax melting experience with our Pack of 100 Wax Burner Liners.",
+      "scent_profile": null,
+      "price": 5.99,
+      "sku": "LGWM029",
+      "image": "burner_liners.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+      "category": 7,
+      "name": "Luxury Matches Jar",
+      "description": "Luxury Long Colourful Matches in a bottle. These bottles of matches are practical but can also be used a a decorative feature. Each match is 10cm long, perfect for lighting candles the BBQ/Fire Pit or to display next to your fireplace. Over 100 long matches in a stylish glass bottle with a wooden stopper and strike pad on the base of the bottle.",
+      "scent_profile": null,
+      "price": 14.5,
+      "sku": "LGWM030",
+      "image": "matches.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 31,
+      "fields": {
+      "category": 7,
+      "name": "Refill Luxury Matches",
+      "description": "Refill Luxury Long Coloured Matches - Matches Only. Each refill pack contains 100 matches with 2 x strike pads to re-stick to your bottle. Matches are 10cm long. Please note this is matches only - bottle not included.",
+      "scent_profile": null,
+      "price": 7.99,
+      "sku": "LGWM031",
+      "image": "matches_refill.jpg"
+      }
+  },
+  {
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+      "category": 6,
+      "name": "Star Reed Diffuser",
+      "description": "Create a relaxing atmosphere & harmony for your home with our long lasting fragrance star reed diffuser hand poured by Lunar Glow. Diffuser glass jar has a 6cm diameter and come with 10 natural reed sticks. Comes in our best-selling clean linen scent.",
+      "scent_profile": 1,
+      "price": 12.99,
+      "sku": "LGWM032",
+      "image": "diffuser2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+      "category": 6,
+      "name": "Amber Reed Diffuser",
+      "description": "Create a relaxing atmosphere & harmony for your home with our long lasting fragrance amber reed diffuser hand poured by Lunar Glow. Diffuser glass jar has a 6cm diameter and come with 10 natural reed sticks. Comes in one of our best-selling, spa serenity scent.",
+      "scent_profile": 1,
+      "price": 12.99,
+      "sku": "LGWM033",
+      "image": "diffuser1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+      "category": 1,
+      "name": "White Pillar Candles",
+      "description": "Illuminate your space with the warm glow of our unscented Soy Pillar Candles. Handcrafted with care and made from 100% natural soy wax, our pillar candles offer a clean and eco-friendly alternative to traditional paraffin candles. With their elegant design and long-lasting burn time, our soy pillar candles are perfect for creating a cozy atmosphere in any room.",
+      "scent_profile": null,
+      "price": 14.99,
+      "sku": "LGWM034",
+      "image": "pillar_candles.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+      "category": 1,
+      "name": "Short Candlestick Candles",
+      "description": "Elevate your dining experience with our pack of 5 Short Candlestick Candles, the perfect addition to any table setting. Crafted from high-quality unscented wax, these elegant candlesticks provide a classic touch to your d�cor while creating a warm and inviting ambiance. Whether for intimate dinners or festive gatherings, our short candlesticks offer versatility and charm. Enjoy the timeless beauty and flickering glow of candlelight with our unscented candlestick set, designed to illuminate every moment with understated elegance.",
+      "scent_profile": null,
+      "price": 9.99,
+      "sku": "LGWM035",
+      "image": "short_candles.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+      "category": 1,
+      "name": "Arch Candle",
+      "description": "Elevate your interior with our grand Large Arch Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
+      "scent_profile": null,
+      "price": 5.99,
+      "sku": "LGWM036",
+      "image": "arch_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+      "category": 1,
+      "name": "Large Bubble Candle",
+      "description": "Elevate your interior with our grand Large Bubble Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
+      "scent_profile": null,
+      "price": 6,
+      "sku": "LGWM037",
+      "image": "bubble_candle2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+      "category": 1,
+      "name": "Small Bubble Candle",
+      "description": "Elevate your interior with our grand Small Bubble Candle, a perfect addition to craft an inviting atmosphere in your space. These unscented candles are made from high quality soy wax. Candles can be used as a decorative feature, but if used, please ensure that they burn on a heatproof surface and do not leave candles unnattended.",
+      "scent_profile": null,
+      "price": 4.95,
+      "sku": "LGWM038",
+      "image": "bubble_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+      "category": 2,
+      "name": "Sweater Weather Amber Candle",
+      "description": "Embrace the cozy charm of autumn with our Sweater Weather Candle. Infused with the comforting essence of crisp fall air and warm, cuddly sweaters, this candle evokes the essence of the season. With notes of woodsy cedarwood, spicy cinnamon, and a hint of vanilla, \"Sweater Weather\" fills your space with a welcoming ambiance perfect for snuggling up indoors. Housed in a chic amber glass jar, our handcrafted soy candle adds a touch of rustic elegance to any room. Embrace the magic of Sweater Weather and let its comforting fragrance envelop you in a cozy embrace, making every moment feel like a cherished autumn day.",
+      "scent_profile": 2,
+      "price": 14,
+      "sku": "LGWM039",
+      "image": "amber_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+      "category": 2,
+      "name": "Rhubarb and Elderflower Amber Candle",
+      "description": "Indulge in the refreshing allure of springtime with our Rhubarb and Elderflower Candle. Infused with the invigorating essence of blooming gardens and sun-dappled afternoons, this candle captures the essence of the season. With vibrant notes of tangy rhubarb and delicate elderflower, \"Rhubarb and Elderflower\" fills your space with a lively and uplifting ambiance, reminiscent of a leisurely stroll through lush meadows. Encased in a sleek amber glass jar, our handcrafted soy candle adds a touch of contemporary elegance to any setting.",
+      "scent_profile": 5,
+      "price": 14,
+      "sku": "LGWM040",
+      "image": "amber_candle2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+      "category": 2,
+      "name": "Clean Linen Amber Candle",
+      "description": "Step into the crisp freshness of clean laundry with our Clean Linen Candle. Infused with the pure essence of freshly laundered linens billowing in the breeze, this candle captures the simple elegance of a tidy home. With delicate notes of cotton blossom and subtle hints of citrus, Clean Linen fills your space with a light and airy ambiance, evoking the comforting familiarity of home. Encased in a timeless amber glass jar, our handcrafted soy candle adds a touch of classic refinement to any room.",
+      "scent_profile": 1,
+      "price": 14,
+      "sku": "LGWM041",
+      "image": "amber_candle3.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+      "category": 2,
+      "name": "Summertime Candle",
+      "description": "Transport yourself to the carefree days of summer with our Summertime Candle. Infused with the essence of sun-kissed beaches and lazy afternoons, this candle captures the vibrant spirit of the season. With invigorating notes of ripe citrus fruits and tropical blooms, Summertime fills your space with a refreshing and uplifting ambiance, reminiscent of a day spent basking in the sun. Encased in a chic clear glass jar, our handcrafted soy candle adds a touch of timeless elegance to any setting. Embrace the enchantment of Summertime and let its delightful fragrance whisk you away to a paradise of endless blue skies and gentle ocean breezes.",
+      "scent_profile": 5,
+      "price": 14,
+      "sku": "LGWM042",
+      "image": "clear_jar_candle1.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 43,
+    "fields": {
+      "category": 2,
+      "name": "Country Meadow Candle",
+      "description": "Immerse yourself in the tranquil beauty of a sunlit meadow with our Country Meadow Candle. Infused with the essence of wildflowers swaying in the breeze and the gentle rustle of tall grass, this candle captures the serene charm of the countryside. With delicate notes of lavender, fresh herbs, and hints of citrus, Country Meadow fills your space with a peaceful and rejuvenating ambiance, evoking the beauty of nature's bounty. Encased in a clear glass jar, our handcrafted soy candle adds a touch of rustic charm to any room. Embrace the serenity of Country Meadow and let its enchanting fragrance transport you to a picturesque landscape of rolling hills and endless horizons.",
+      "scent_profile": 3,
+      "price": 14,
+      "sku": "LGWM043",
+      "image": "clear_jar_candle2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 44,
+    "fields": {
+      "category": 2,
+      "name": "French Lavender Concrete Candle",
+      "description": "Immerse yourself in a soothing embrace with our French Lavender Concrete Pot Candle. Infused with the timeless essence of fragrant lavender fields, delicate vanilla, and calming chamomile, this candle captures the essence of a tranquil countryside retreat. With enchanting notes of lavender blossoms, warm vanilla, and hints of chamomile, our candle fills your space with a sense of serenity and relaxation. Housed in a chic concrete pot, our handcrafted soy candle adds a touch of rustic elegance to any room. Let its enchanting fragrance transport you to a sun-drenched lavender field, where every moment feels like a cherished escape into nature's embrace.",
+      "scent_profile": 3,
+      "price": 16,
+      "sku": "LGWM044",
+      "image": "concrete_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 45,
+    "fields": {
+      "category": 2,
+      "name": "Copper Tin Candle",
+      "description": "Indulge in the radiant beauty of a blooming garden with our Peony and Bergamot Copper Tin Candle. Infused with the captivating essence of vibrant peony blossoms and uplifting bergamot, this candle captures the allure of a sun-kissed floral paradise. With enchanting notes of delicate peony petals and zesty bergamot, our candle fills your space with an invigorating and rejuvenating ambiance. Housed in a sleek copper tin, our handcrafted soy candle adds a touch of modern elegance to any room. Embrace the enchantment of Peony and Bergamot and let its delightful fragrance whisk you away to a fragrant garden oasis.",
+      "scent_profile": 1,
+      "price": 10,
+      "sku": "LGWM045",
+      "image": "copper_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+      "category": 2,
+      "name": "White ceramic Candle",
+      "description": "Unwind in the rich, earthy embrace of our Tobacco and Oak Candle, nestled in a sleek White Ceramic Jar. Infused with the warm essence of aged tobacco leaves and rugged oak wood, this candle captures the depth and complexity of a refined gentlemen's study. With intoxicating notes of smoky tobacco and woody oak, our candle fills your space with a sense of timeless sophistication. Housed in a pristine white ceramic jar, our handcrafted soy candle adds a touch of understated elegance to any room. Embrace the allure of Tobacco and Oak and let its distinctive fragrance envelop you in a cozy retreat.",
+      "scent_profile": 4,
+      "price": 11,
+      "sku": "LGWM046",
+      "image": "white_ceramic_candle.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Fluffy Clouds",
+      "description": "Elevate your senses with Wax Melt Fluffy Clouds, a delightful collection of individual cloud-shaped wax melts in a refreshing summer breeze that includes hints of roses, jasmine, and lilie. Crafted with care, each pack contains five heavenly clouds designed to transport you to a sun-kissed paradise. Infused with the essence of a gentle summer breeze, these wax melts release a light and airy fragrance, evoking the serenity of floating among fluffy clouds on a warm afternoon. Let the essence of summer fill your space, bringing a touch of tranquility and joy with every melt. Experience the essence of pure bliss in every cloud-shaped wax melt.",
+      "scent_profile": 3,
+      "price": 10,
+      "sku": "LGWM047",
+      "image": "individual_wax_melts1.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Stars",
+      "description": "Introducing Wax Melt Stars, a delightful collection of star-shaped wax melts designed to elevate your space with a soothing and tranquil ambiance. Each pack contains 6 carefully crafted wax stars infused with a calming blend of scents, including the comforting scent of vanilla bean and sandalwood, offering a warm and inviting atmosphere that soothes the senses.",
+      "scent_profile": 4,
+      "price": 10,
+      "sku": "LGWM048",
+      "image": "individual_wax_melts2.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Rainbow Stars",
+      "description": "Introducing Wax Melt Stars, a delightful collection of raindow-coloured star-shaped wax melts designed to elevate your space with a fresh and fruity scent. Each pack contains 6 carefully crafted wax stars infused with a delightful blend of scents, including the sumptuous scent of cherry and lime, offering a warm and invigorating atmosphere that awakens the senses.",
+      "scent_profile": 5,
+      "price": 10,
+      "sku": "LGWM049",
+      "image": "individual_wax_melts3.jpg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 50,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Stormy Clouds",
+      "description": "Introducing Wax Melt Stormy Clouds, an enchanting collection of individual cloud-shaped wax melts inspired by the raw power and rugged beauty of a stormy day. Each pack contains five bold clouds crafted to captivate your senses with a distinctly masculine fragrance. Infused with the essence of a stormy evening, these wax melts release a rich and invigorating aroma of cedarwood and leather.",
+      "scent_profile": 4,
+      "price": 10,
+      "sku": "LGWM050",
+      "image": "individual_wax_melts4.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 51,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Love Hearts",
+      "description": "Experience the enchanting allure of Wax Melt Love Hearts, a captivating assortment of heart-shaped wax melts crafted to infuse your surroundings with the delicate fragrance of blooming flowers and powdery elegance. Each pack unveils a treasure trove of six intricately designed wax hearts, radiating the essence of romance and serenity. Envelop yourself in a symphony of scents, including violets and cotton.",
+      "scent_profile": 3,
+      "price": 10,
+      "sku": "LGWM051",
+      "image": "individual_wax_melts5.jpeg"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 52,
+    "fields": {
+      "category": 4,
+      "name": "Wax Melt Cosy Hearts",
+      "description": "Introducing Wax Melt Cosy Hearts, a charming ensemble of heart-shaped wax melts designed to envelop your space in warmth and comfort with a soothing, cosy scent. Each pack unveils a collection of six intricately crafted wax hearts, radiating the essence of homely tranquility and snug relaxation. Immerse yourself in a symphony of scents, including the luxurious scent of cozy cashmere woods, as woody notes mingle with soft musk, creating an ambiance of peaceful serenity.",
+      "scent_profile":4,
+      "price": 10,
+      "sku": "LGWM052",
+      "image": "individual_wax_melts6.jpeg"
+    }
+  }
+]
