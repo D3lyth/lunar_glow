@@ -50,7 +50,7 @@ def product_detail(request, product_id):
     context = {
         'product': product,
         'search_term': search_term, #***********MIGHT NEED TO CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        'current_category': categories, 
+        # 'current_category': categories, 
     }
 
     return render(request, 'products/product_detail.html', context)  
