@@ -396,6 +396,36 @@ a.btn.btn-primary.scentbutton:active {
     padding: 5%;
 }
 
+/* Scent Selection Page */
+
+#chosen-scent-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#chosen-scent-opener {
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+#chosen-scent-name {
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+#chosen-scent {
+    margin: 0 auto;
+    width: 95%;
+}
+
+#chosen-scent-try {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    text-align: left;
+
+}
 
 
 /* Media Queries */
