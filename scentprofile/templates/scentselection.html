@@ -25,7 +25,7 @@
                     
                     {% for productscent in ProductScents %}
                             <div>
-                                <h3>{{ productscent.name }} - £{{ productscent.price }}</h3>
+                                <h3>{{ productscent.name }} - £{{ productscent.price }} - <a href="{% url 'products' %}">Buy</a></h3>
                                 <ul>
                                     {% for product in productscent.products.all %}
                                         <li>
@@ -34,7 +34,6 @@
                                             {% else %}
                                                 <p>No image available</p>
                                             {% endif %}
-                                            <div>{{ product.name }} - £{{ product.price }}</div>
                                         </li>
                                     {% endfor %}
                                 </ul>
