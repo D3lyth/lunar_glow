@@ -10,6 +10,16 @@ body {
     font-family: 'Lato';
 }
 
+/* Home Page */
+
+#main-tagline {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    background-color: rgba(250, 235, 215, 0.5);
+    padding: 5%;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -299,10 +309,6 @@ a.category-badge > span.badge:hover {
     background-color: #c1bdb7;
 }
 
-.card-body {
-    /* background-color: #e9e8e6; */
-}
-
 .btn-link {
     font-weight: 400;
     color:#000;
@@ -310,9 +316,7 @@ a.category-badge > span.badge:hover {
 }
 
 .btn:hover {
-    /* color: #212529; */
     text-decoration: none;
-    font-size: 1.25rem;
 }
 
 .modal-content {
@@ -338,13 +342,13 @@ a.category-badge > span.badge:hover {
 a.btn.btn-primary.scentbutton:active {
     background-color: #000;
     border: none;
-    border-radius: 0%s;
+    border-radius: 0%;
 }
 
 .btn-primary {
     background-color: #000;
     border: none;
-    border-radius: 0%s;
+    border-radius: 0%;
 }
 
 
