@@ -306,19 +306,13 @@ Feel free to delete any unused items below as necessary.
 - [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Codeanywhere](https://codeanywhere.com) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
 - [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
 - [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
 - [PostgreSQL](https://www.postgresql.org) used as the relational database management.
 - [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
 - [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
 - [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
 
@@ -387,16 +381,6 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-**IMPORTANT:**
-
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 The live deployed application can be found deployed on [Heroku](https://lunar-glow-77444c493d2e.herokuapp.com).
 
 ### ElephantSQL Database
@@ -406,7 +390,7 @@ This project uses [ElephantSQL](https://www.elephantsql.com) for the PostgreSQL 
 To obtain your own Postgres Database, sign-up with your GitHub account, then follow these steps:
 
 - Click **Create New Instance** to start a new database.
-- Provide a name (this is commonly the name of the project: lunar-glow).
+- Provide a name (this is commonly the name of the project: lunar_glow).
 - Select the **Tiny Turtle (Free)** plan.
 - You can leave the **Tags** blank.
 - Select the **Region** and **Data Center** closest to you.
@@ -485,7 +469,7 @@ Back on the AWS Services Menu, search for and open **IAM** (Identity and Access 
 Once on the IAM page, follow these steps:
 
 - From **User Groups**, click **Create New Group**.
-	- Suggested Name: `group-lunar-glow` (group + the project name)
+	- Suggested Name: `group-lunar_glow` (group + the project name)
 - Tags are optional, but you must click it to get to the **review policy** page.
 - From **User Groups**, select your newly created group, and go to the **Permissions** tab.
 - Open the **Add Permissions** dropdown, and click **Attach Policies**.
@@ -511,17 +495,17 @@ Once on the IAM page, follow these steps:
 		```
 	
 	- Click **Review Policy**.
-	- Suggested Name: `policy-lunar-glow` (policy + the project name)
+	- Suggested Name: `policy-lunar_glow` (policy + the project name)
 	- Provide a description:
-		- "Access to S3 Bucket for lunar-glow static files."
+		- "Access to S3 Bucket for lunar_glow static files."
 	- Click **Create Policy**.
-- From **User Groups**, click your "group-lunar-glow".
+- From **User Groups**, click your "group-lunar_glow".
 - Click **Attach Policy**.
-- Search for the policy you've just created ("policy-lunar-glow") and select it, then **Attach Policy**.
+- Search for the policy you've just created ("policy-lunar_glow") and select it, then **Attach Policy**.
 - From **User Groups**, click **Add User**.
-	- Suggested Name: `user-lunar-glow` (user + the project name)
+	- Suggested Name: `user-lunar_glow` (user + the project name)
 - For "Select AWS Access Type", select **Programmatic Access**.
-- Select the group to add your new user to: `group-lunar-glow`
+- Select the group to add your new user to: `group-lunar_glow`
 - Tags are optional, but you must click it to get to the **review user** page.
 - Click **Create User** once done.
 - You should see a button to **Download .csv**, so click it to save a copy on your system.
@@ -575,7 +559,7 @@ Once you've created a Gmail (Google) account and logged-in, follow these series 
 - This might prompt you once again to confirm your password and account.
 - Select **Mail** for the app type.
 - Select **Other (Custom name)** for the device type.
-	- Any custom name, such as "Django" or lunar-glow
+	- Any custom name, such as "Django" or lunar_glow
 - You'll be provided with a 16-character password (API key).
 	- Save this somewhere locally, as you cannot access this key again later!
 	- `EMAIL_HOST_PASS` = user's 16-character API key
@@ -687,18 +671,18 @@ If you'd like to backup your database models, use the following command for each
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/D3lyth/lunar-glow) 
+1. Go to the [GitHub repository](https://github.com/d3lyth/lunar_glow) 
 2. Locate the Code button above the list of files and click it 
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/D3lyth/lunar-glow.git`
+	- `git clone https://github.com/d3lyth/lunar_glow.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/D3lyth/lunar-glow)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/d3lyth/lunar_glow)
 
 Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
 A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
@@ -708,7 +692,7 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/D3lyth/lunar-glow)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/d3lyth/lunar_glow)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
@@ -753,7 +737,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
 | [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Media
@@ -778,23 +761,12 @@ by sending yourself the following command: `!freemedia`.
 | [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
 | [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
 | [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my partner Rob, and my daughters for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my friend Matt, for his coding advice.
