@@ -16,8 +16,10 @@
                 <div class="col text-center mt-3">
                     <h2 class="logo-font">Scent Selection: {{ scent_profile.name }}</h2>
                         <hr class="w-50 mb-1">
-                        <div>{{ scent_profile.description }}</div>
-                    <br/>
+                        <div>You have chosen {{ scent_profile.name }} <br>
+                             {{ scent_profile.description }}
+                            <br>
+                            Here are some hand-selected product that you may like to try.</div>     
                         <ul>
                         {% for productscent in ProductScents %}
                         
