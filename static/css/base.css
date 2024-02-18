@@ -13,11 +13,11 @@ body {
 /* Home Page */
 
 #main-tagline {
-    font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
     background-color: rgba(250, 235, 215, 0.5);
     padding: 5%;
+    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -352,8 +352,8 @@ a.category-badge > span.badge:hover {
 /* Scent Profile Options Page */
 
 #scentoptiontitle   {
-    font-family: cursive;
-    font-size: 2rem;
+    font-family: "Ms Madi", cursive;
+    font-size: 2.5rem;
     text-align: center;
     margin: 2%;
 }
@@ -411,7 +411,7 @@ a.btn.btn-primary.scentbutton:active {
 #chosen-scent-name {
     text-align: center;
     font-size: 3rem;
-    font-family: cursive;
+    font-family: "Ms Madi", cursive;
 }
 
 #chosen-scent {
