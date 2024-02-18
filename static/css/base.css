@@ -285,7 +285,19 @@ a.category-badge > span.badge:hover {
 /* Left justify the content */
 .content {
     text-align: left;
+    text-decoration-line: none;
 }
+
+#faq-container {
+    width: 95%;
+}
+
+.btn-link:hover {
+    color:#000;
+    font-weight: 300;
+}
+
+
 
 /*  CSS the modal overlay for Newsletter Sign Up */
 
@@ -339,17 +351,51 @@ a.category-badge > span.badge:hover {
 
 /* Scent Profile Options Page */
 
+#scentoptiontitle   {
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2%;
+}
+
+
 a.btn.btn-primary.scentbutton:active {
     background-color: #000;
     border: none;
-    border-radius: 0%;
+    border-radius: 0;
+    margin: 5%
 }
 
 .btn-primary {
     background-color: #000;
     border: none;
-    border-radius: 0%;
+    border-radius: 0;
+    margin: 5%
 }
+
+.carousel-inner {
+    width: 60%;
+    display: block;
+    float: left;
+    left: 20%;
+    background-color: #f3ece5;
+}
+
+#carouselExampleFade {
+    text-align: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #49341c;
+}
+
+#scentinformation   {
+    padding: 5%;
+}
+
 
 
 /* Media Queries */

@@ -19,14 +19,13 @@
             </div>
         </div>
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="false">
             <div class="carousel-inner">
                 {% for scentoption in scentoptions %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                    <div>{{ scentoption.name }}</div>
-                    <!-- <img src="{% static 'path_to_your_image_here.jpg' %}" class="d-block w-100" alt="..."> -->
-                    <div>{{ scentoption.description }}</div>
-                    <!-- Inside your carousel template -->
+                    <div id="scentoptiontitle">{{ scentoption.name }}</div>
+                    <div id="scentinformation">{{ scentoption.description }}</div>
+                    <!-- Inside the carousel template -->
                     <div class="text-center"> 
                         <a href="{% url 'scentselection' scentoption.id %}" class="btn btn-primary scentbutton">Select {{ scentoption.name }}</a>
                     </div>
