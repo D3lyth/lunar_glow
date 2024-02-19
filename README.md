@@ -1,115 +1,49 @@
 # [LUNAR GLOW](https://lunar-glow-77444c493d2e.herokuapp.com)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
+🛑🛑🛑🛑🛑  
 https://ui.dev/amiresponsive?url=https://lunar-glow-77444c493d2e.herokuapp.com
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
 ![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑
 
 ## UX
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+🛑🛑🛑🛑🛑 
 In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 
 
 ### Colour Scheme
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+At Lunar Glow, our customers are looking to elevate their decor and to create a cosy, relaxing atmosphere. Bearing this in mind, the colour scheme has been kept to muted and natural tones for a relaxing, yet sophisticated feel to the user experience. 
 
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+🛑🛑🛑🛑🛑
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
 - `#4A4A4F` used for secondary text.
 - `#009FE3` used for secondary highlights.
+🛑🛑🛑🛑🛑
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
+The website [coolors.co](https://coolors.co/a2917c-bfc6d0-17110d-cdd0d4-b5b9be) was used to generate the colour palette. The hero image was used as inspiration and complementing colours from the image was used to create the colour palette.
+🛑🛑🛑🛑🛑
 ![screenshot](documentation/coolors.png)
+🛑🛑🛑🛑🛑 
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+The font was used to give a clean and elegant finish.
+🛑🛑🛑🛑🛑
 - [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
+🛑🛑🛑🛑🛑
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as shopping bag icons, secure checkout button, social media icons in the footer.
 
 ## User Stories
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+🛑🛑🛑🛑🛑
 ### New Site Users
 
 - As a new site user, I would like to ____________, so that I can ____________.
@@ -133,6 +67,7 @@ In this section, list all of your user stories for the project.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
+🛑🛑🛑🛑🛑
 
 ## Wireframes
 
@@ -260,30 +195,14 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/feature03.png)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Future Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
+- Scent Quiz
     - Any additional notes about this feature.
-- Title for future feature #2
+- Customer Reviews
     - Any additional notes about this feature.
-- Title for future feature #3
+- Live Chat Feature
     - Any additional notes about this feature.
 
 ## Tools & Technologies Used
@@ -334,27 +253,20 @@ class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
-    has_sizes = models.BooleanField(default=False, null=True, blank=True)
+	scent_profile = models.ForeignKey('scentprofile.ScentProfile', on_delete=models.SET_NULL, null=True, blank=True)
+    sku = models.CharField(max_length=254, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.name
 ```
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- [DrawSQL](https://drawsql.app/)
+DrawSQL was used to cfreate an ERD to visualise the tables within the database and their relationships.
 
-A couple recommendations for building free ERDs:
-- [Draw.io](https://draw.io)
-- [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+🛑🛑🛑🛑🛑
 ![screenshot](documentation/erd.png)
-
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 Using Markdown formatting to represent an example ERD table using the Product model above:
@@ -369,10 +281,8 @@ Using Markdown formatting to represent an example ERD table using the Product mo
     | | sku | CharField | |
     | | name | CharField | |
     | | description | TextField | |
-    | | has_sizes | BooleanField | |
+	| | scent_profile | CharField | |
     | | price | DecimalField | |
-    | | rating | DecimalField | |
-    | | image_url | URLField | |
     | | image | ImageField | |
 
 ## Testing
