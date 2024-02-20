@@ -25,7 +25,7 @@
                     
                     {% for productscent in ProductScents %}
                             <div>
-                                <h3>{{ productscent.name }} - £{{ productscent.price }} - <a href="{{ product.product_detail }}" id="buy-selected-scent">Buy</a></h3>
+                                <h3>{{ productscent.name }} - £{{ productscent.price }} - <a href="{% url 'products' %}" id="buy-selected-scent">Buy</a></h3>
                                 <ul>
                                     {% for product in products.all %}
                                         <li>
