@@ -298,7 +298,6 @@ a.category-badge > span.badge:hover {
 }
 
 
-
 /*  CSS the modal overlay for Newsletter Sign Up */
 
 #modal-overlay {
@@ -427,6 +426,13 @@ a.btn.btn-primary.scentbutton:active {
 
 }
 
+a#buy-selected-scent {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 1.4rem;
+    padding:0.5%;
+}
 
 /* Media Queries */
 
