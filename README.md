@@ -1,9 +1,6 @@
 # [LUNAR GLOW](https://lunar-glow-77444c493d2e.herokuapp.com)
 
-🛑🛑🛑🛑🛑  
-https://ui.dev/amiresponsive?url=https://lunar-glow-77444c493d2e.herokuapp.com
 ![screenshot](documentation/mockup.png)
-🛑🛑🛑🛑🛑
 
 ## UX
 
@@ -46,28 +43,53 @@ The font was used to give a clean and elegant finish.
 🛑🛑🛑🛑🛑
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to create a profile, so that I can store my order details and have a personalized shopping experience on Lunar Glow.
+
+- As a new user, I would like to browse products, so that I can explore the range of candles and wax melts available on Lunar Glow.
+
+- As a new user, I would like to search for specific products, so that I can quickly find items that match my preferences on Lunar Glow.
+
+- As a new user, I would like to sign up for a newsletter, so that I can receive updates, promotions, and news about new products from Lunar Glow.
+
+- As a new user, I would like to read about scent profiles, so that I can understand the different fragrance options available and discover scents that match my preferences on Lunar Glow.
+
+- As a new user, I would like to see which products match my desired scent profile, so that I can easily find and purchase items that align with my preferences on Lunar Glow.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning user, I would like to log in to my profile, so that I can access my saved information and easily place orders without re-entering my details on Lunar Glow.
+
+- As a returning user, I would like to browse products, so that I can explore the range of candles and wax melts available on Lunar Glow.
+
+- As a returning user, I would like to search for specific products, so that I can quickly find items that match my preferences on Lunar Glow.
+
+- As a returning user, I would like to sort products by different criteria (e.g., price, scent type), so that I can easily find the products I'm interested in on Lunar Glow.
+
+- As a returning user, I would like to add items to my shopping bag, so that I can keep track of the products I want to purchase on Lunar Glow.
+
+- As a returning user, I would like to edit or remove items from my shopping bag, so that I can adjust my order before proceeding to checkout on Lunar Glow.
+
+- As a returning user, I would like to complete my purchase and buy the items in my shopping bag, so that I can enjoy the candles and wax melts from Lunar Glow.
+
+- As a returning user, I would like to access an FAQ section, so that I can find answers to common questions about products, delivery, and returns on Lunar Glow.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-🛑🛑🛑🛑🛑
+- As a site administrator, I should be able to add new products, so that I can expand the range of offerings available on Lunar Glow.
+
+- As a site administrator, I should be able to edit existing product details, so that I can update information and pricing as needed on Lunar Glow.
+
+- As a site administrator, I should be able to remove products, so that I can manage inventory and remove discontinued items from Lunar Glow.
+
+- As a site administrator, I should be able to view and manage user profiles, so that I can assist users with account-related issues and ensure data integrity on Lunar Glow.
+
+- As a site administrator, I should be able to access order details, so that I can track orders, manage deliveries, and handle customer inquiries on Lunar Glow.
+
+- As a site administrator, I should be able to manage the FAQ section, so that I can update and add answers to common questions as needed on Lunar Glow.
+
+- As a site administrator, I should be able to view newsletter subscribers, so that I can analyze subscriber data and manage newsletter communications effectively on Lunar Glow.
+
+- As a site administrator, I should be able to manage user permissions and roles, so that I can control access to different parts of the admin panel and ensure data security on Lunar Glow.
 
 ## Wireframes
 
@@ -160,61 +182,121 @@ etc.
 
 ## Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Existing Features
 
-- **Title for feature #1**
+- **User Authentication and Profile Creation**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+Users can create accounts and profiles to store their order details and preferences, providing a personalized shopping experience.
+Value: Enables users to manage their orders and preferences conveniently and securely, fostering loyalty and repeat purchases.
+
+    - Users can create accounts and profiles to store their order details and preferences, providing a personalized shopping experience. This provides value as it enables users to manage their orders and preferences conveniently and securely, fostering loyalty and repeat purchases.
 
 ![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+- **Product Browsing, Searching, and Sorting**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Users can easily browse, search, and sort through a variety of candles and wax melts. This provides value as it allows users to quickly find products that match their preferences, enhancing the overall shopping experience.
 
 ![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+- **Easy to Use UI Components**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Navigation Elements (Nav Bar, Menu): Navigation elements help users move between different sections or pages of the website. They enhance user experience by providing clear pathways to desired content or functionality.
+	- Buttons: Buttons trigger actions or events when clicked by the user. They enable users to interact with the system, such as submitting a form, adding items to a shopping bag, or navigating to a different page.
 
 ![screenshot](documentation/feature03.png)
 
+- **Product Management**
+
+    - Administrators can add new products, update existing product details, and remove discontinued items from the inventory. This provides value as it enables administrators to keep the product catalog up-to-date, ensuring a fresh and relevant selection for users.
+
+![screenshot](documentation/feature04.png)
+
+- **Newsletter Subscription**
+
+    - Users can sign up to receive newsletters, promotions, and updates about new products. This will add value as it keeps users informed about new offerings and promotions, fostering engagement and encouraging repeat visits to the website.
+
+![screenshot](documentation/feature05.png)
+
+- **Scent Profiles and Product Matching**
+
+    - Users can explore scent profiles and identify products that align with their desired fragrances. This helps users discover products that cater to their preferences, enhancing satisfaction and facilitating informed purchasing decisions.
+
+![screenshot](documentation/feature06.png)
+
+- **FAQ Section**
+
+    - Users can access a comprehensive FAQ section to find answers to common questions about products, delivery, and returns. This provides users with helpful information and support, reducing uncertainties and enhancing satisfaction with the shopping experience.
+
+![screenshot](documentation/feature07.png)
+
+- **Shopping Bag Management**
+
+    - Users can add, edit, and remove items from their shopping bags before proceeding to checkout. This provides value as it gives users control over their purchases, allowing them to review and adjust their orders as needed.
+
+![screenshot](documentation/feature08.png)
+
+- **Order Management**
+
+    - Administrators can view and manage order details, track shipments, and handle customer inquiries. This adds value by helping administrators streamline order processing and customer service, ensuring timely deliveries and resolving issues promptly.
+
+![screenshot](documentation/feature09.png)
+
+- **Admin Dashboard**
+
+	- Site administrators have access to a dashboard to manage products, user profiles, orders, FAQs, and newsletter subscribers. This will empower administrators to efficiently oversee and maintain the website, ensuring smooth operations and excellent user experience.
+
+![screenshot](documentation/feature10.png)
 
 ### Future Features
 
-- Scent Quiz
-    - Any additional notes about this feature.
-- Customer Reviews
-    - Any additional notes about this feature.
-- Live Chat Feature
-    - Any additional notes about this feature.
+There are many great additions that can be added to the sit to make UX better and to have even more users visiting and re-visiting the site.
+
+- Wishlist Functionality
+	- Allow users to create and manage wishlists of products they're interested in purchasing in the future.
+
+- Product Reviews and Ratings
+	- Enable users to leave reviews and ratings for products they have purchased, helping other users make informed decisions.
+
+- Personalised Recommendations
+	-Implement algorithms to provide personalised product recommendations based on users' browsing and purchase history.
+
+- Social Media Integration
+	- Allow users to share products they like on social media platforms, and integrate social media login options for easier access.
+
+- Gift Cards and Vouchers
+	- Introduce the option for users to purchase and redeem gift cards or vouchers for themselves or others.
+
+- Subscription Services
+	- Offer subscription services where users can subscribe to receive regular deliveries of their favorite candles or wax melts.
+
+- Customization Options
+	- Provide options for users to customize their orders, such as selecting scents, container styles, or packaging preferences.
+
+- Local Pickup and Delivery
+	- Implement a feature for users to choose local pickup or delivery options for their orders, catering to different preferences and needs.
+
+- Live Chat Support
+	- Offer live chat support to assist users with inquiries, product recommendations, and troubleshooting in real-time.
+
+- Guest Checkout
+	- Allow users to complete purchases without creating an account, streamlining the checkout process for first-time visitors.
+
+- Product Bundles and Sets
+	- Create curated bundles or sets of products at discounted prices, encouraging users to purchase complementary items together.
+
+- Seasonal Collections and Limited Edition Releases
+	- Introduce seasonal collections and limited edition releases to keep your product offerings fresh and encourage repeat visits from users.
+
+- Interactive Scent Profiling
+	- Enhance the scent profiling feature by making it more interactive, allowing users to explore scent families and discover new fragrances.
+
+- Multilingual Support
+	- Offer support for multiple languages (especially Welsh) to cater to a diverse user base and expand your reach to international markets.
 
 ## Tools & Technologies Used
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Techlologies used during the creation of Lunar Glow include:
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
@@ -616,24 +698,13 @@ Use this space to discuss any differences between the local version you've devel
 
 ## Credits
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+The main code base for this project has come from the Boutique Ado walkthrough by ![Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some faetures and code. This will include the profiles app, the checkout and bag app and various other featured of the website.
 
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
+The product names and descriptions for various products and scent profiles were generated using AI - ![ChatGPT](https://chat.openai.com/).
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Image credit can be seen below.
 
 ### Content
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -667,7 +738,7 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
+| [Pexels](https://www.flaticon.com/free-icon/candle_604680) | entire site | image | favicon on all pages |
 | [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
 | [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
 | [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
