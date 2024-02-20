@@ -25,9 +25,9 @@
                     
                     {% for productscent in ProductScents %}
                             <div>
-                                <h3>{{ productscent.name }} - £{{ productscent.price }} - <a href="{% url 'products' %}">Buy</a></h3>
+                                <h3>{{ productscent.name }} - £{{ productscent.price }} - <a href="{{ product.product_detail }}" id="buy-selected-scent">Buy</a></h3>
                                 <ul>
-                                    {% for product in productscent.products.all %}
+                                    {% for product in products.all %}
                                         <li>
                                             {% if product.image %}
                                                 <img src="{{ product.image.url }}" alt="{{ product.name }}" style="max-width: 100px; max-height: 100px;">
