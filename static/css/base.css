@@ -83,6 +83,13 @@ body {
     background: #000 !important;
 }
 
+/* Empty shopping bag */
+
+.lead {
+    margin-top: 10%;
+}
+
+
 /* Overlay to hide main image on products page */
 .overlay {
     height: 100%;
