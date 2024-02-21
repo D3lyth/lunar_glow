@@ -85,7 +85,7 @@ body {
 
 /* Empty shopping bag */
 
-.lead {
+p.lead.mb-5 {
     margin-top: 10%;
 }
 
