@@ -4,91 +4,63 @@
 
 ## UX
 
-🛑🛑🛑🛑🛑 
-In this section, you will briefly explain your design processes.
-🛑🛑🛑🛑🛑 
+Designing Lunar Glow involved understanding the target audience and competitors, defining goals, and creating wireframes and prototypes for layout and functionality. Developing a visual identity with design mockups follows, leading to the coding of designs into HTML, CSS, and JavaScript, ensuring responsiveness across devices. Testing included maual/usability testing, and performance optimization The launch involved deploying the website securely via Heroku.
 
 ### Colour Scheme
 
 At Lunar Glow, our customers are looking to elevate their decor and to create a cosy, relaxing atmosphere. Bearing this in mind, the colour scheme has been kept to muted and natural tones for a relaxing, yet sophisticated feel to the user experience. 
 
-🛑🛑🛑🛑🛑
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
 - `#4A4A4F` used for secondary text.
 - `#009FE3` used for secondary highlights.
-🛑🛑🛑🛑🛑
+- `#faebd780` and `#f4ede7` were used for background colour. 
 
-The website [coolors.co](https://coolors.co/a2917c-bfc6d0-17110d-cdd0d4-b5b9be) was used to generate the colour palette. The hero image was used as inspiration and complementing colours from the image was used to create the colour palette.
-🛑🛑🛑🛑🛑
+The website [coolors.co](https://coolors.co/a2917c-bfc6d0-17110d-cdd0d4-b5b9be) was used to generate the colour palette. The hero image was used as inspiration and complementing and similar colours from the image was used to create the colour palette.
+
 ![screenshot](documentation/coolors.png)
-🛑🛑🛑🛑🛑 
-
-
-
-
 
 ### Typography
 
 The font was used to give a clean and elegant finish.
-🛑🛑🛑🛑🛑
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-🛑🛑🛑🛑🛑
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+
+- [Lato](https://fonts.google.com/specimen/Lato) was used for primary headers, titles and secondary text.
+
+- [Ms Madi](https://fonts.google.com/specimen/Ms+Madi) was used for some of the scent headings.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as shopping bag icons, secure checkout button, social media icons in the footer.
 
 ## User Stories
 
-🛑🛑🛑🛑🛑
 ### New Site Users
 
 - As a new site user, I would like to create a profile, so that I can store my order details and have a personalized shopping experience on Lunar Glow.
-
 - As a new user, I would like to browse products, so that I can explore the range of candles and wax melts available on Lunar Glow.
-
 - As a new user, I would like to search for specific products, so that I can quickly find items that match my preferences on Lunar Glow.
-
 - As a new user, I would like to sign up for a newsletter, so that I can receive updates, promotions, and news about new products from Lunar Glow.
-
 - As a new user, I would like to read about scent profiles, so that I can understand the different fragrance options available and discover scents that match my preferences on Lunar Glow.
-
 - As a new user, I would like to see which products match my desired scent profile, so that I can easily find and purchase items that align with my preferences on Lunar Glow.
 
 ### Returning Site Users
 
 - As a returning user, I would like to log in to my profile, so that I can access my saved information and easily place orders without re-entering my details on Lunar Glow.
-
 - As a returning user, I would like to browse products, so that I can explore the range of candles and wax melts available on Lunar Glow.
-
 - As a returning user, I would like to search for specific products, so that I can quickly find items that match my preferences on Lunar Glow.
-
 - As a returning user, I would like to sort products by different criteria (e.g., price, scent type), so that I can easily find the products I'm interested in on Lunar Glow.
-
 - As a returning user, I would like to add items to my shopping bag, so that I can keep track of the products I want to purchase on Lunar Glow.
-
 - As a returning user, I would like to edit or remove items from my shopping bag, so that I can adjust my order before proceeding to checkout on Lunar Glow.
-
 - As a returning user, I would like to complete my purchase and buy the items in my shopping bag, so that I can enjoy the candles and wax melts from Lunar Glow.
-
 - As a returning user, I would like to access an FAQ section, so that I can find answers to common questions about products, delivery, and returns on Lunar Glow.
 
 ### Site Admin
 
 - As a site administrator, I should be able to add new products, so that I can expand the range of offerings available on Lunar Glow.
-
 - As a site administrator, I should be able to edit existing product details, so that I can update information and pricing as needed on Lunar Glow.
-
 - As a site administrator, I should be able to remove products, so that I can manage inventory and remove discontinued items from Lunar Glow.
-
 - As a site administrator, I should be able to view and manage user profiles, so that I can assist users with account-related issues and ensure data integrity on Lunar Glow.
-
 - As a site administrator, I should be able to access order details, so that I can track orders, manage deliveries, and handle customer inquiries on Lunar Glow.
-
 - As a site administrator, I should be able to manage the FAQ section, so that I can update and add answers to common questions as needed on Lunar Glow.
-
 - As a site administrator, I should be able to view newsletter subscribers, so that I can analyze subscriber data and manage newsletter communications effectively on Lunar Glow.
-
 - As a site administrator, I should be able to manage user permissions and roles, so that I can control access to different parts of the admin panel and ensure data security on Lunar Glow.
 
 ## Wireframes
@@ -186,9 +158,6 @@ etc.
 
 - **User Authentication and Profile Creation**
 
-Users can create accounts and profiles to store their order details and preferences, providing a personalized shopping experience.
-Value: Enables users to manage their orders and preferences conveniently and securely, fostering loyalty and repeat purchases.
-
     - Users can create accounts and profiles to store their order details and preferences, providing a personalized shopping experience. This provides value as it enables users to manage their orders and preferences conveniently and securely, fostering loyalty and repeat purchases.
 
 ![screenshot](documentation/feature01.png)
@@ -238,7 +207,7 @@ Value: Enables users to manage their orders and preferences conveniently and sec
 
 - **Order Management**
 
-    - Administrators can view and manage order details, track shipments, and handle customer inquiries. This adds value by helping administrators streamline order processing and customer service, ensuring timely deliveries and resolving issues promptly.
+    - Administrators can view and manage order details, and handle customer inquiries. This adds value by helping administrators streamline order processing and customer service, ensuring timely deliveries and resolving issues promptly.
 
 ![screenshot](documentation/feature09.png)
 
