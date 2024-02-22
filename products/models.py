@@ -1,15 +1,6 @@
 from django.db import models
 
 
-# Scent Profile Model
-class ScentProfile(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.TextField()
-
-    def __str__(self):
-        return self.name
-
-
 # Category Model
 class Category(models.Model):
 
