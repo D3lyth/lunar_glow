@@ -2,7 +2,6 @@ from .models import FAQCategory, FAQ_QA
 from django.shortcuts import render
 
 
-
 def all_faqs(request):
     # Fetch all FAQ categories
     categories = FAQCategory.objects.all()
@@ -22,9 +21,7 @@ def all_faqs(request):
     # Pass the dictionary and faqs to the template context
     context = {
         'categories_with_faqs': categories_with_faqs,
-        'faqs': faqs,  # Add this line to pass the faqs variable to the template
+        'faqs': faqs,
     }
 
     return render(request, 'faqs/faqs.html', context)
-
-

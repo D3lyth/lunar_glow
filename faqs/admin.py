@@ -3,6 +3,7 @@ from .models import FAQCategory, FAQ_QA
 
 # Models
 
+
 class FAQCategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
@@ -12,10 +13,11 @@ class FAQCategoryAdmin(admin.ModelAdmin):
 
 class FAQ_QAAdmin(admin.ModelAdmin):
     list_display = (
-        'faq_category', 
+        'faq_category',
         'question',
         'answer',
         )
+
 
 admin.site.register(FAQCategory, FAQCategoryAdmin)
 admin.site.register(FAQ_QA, FAQ_QAAdmin)
