@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import ProductScent, ScentProfile
+from .models import ScentProfile
 
 
 class ScentProfileAdmin(admin.ModelAdmin):
@@ -8,12 +8,5 @@ class ScentProfileAdmin(admin.ModelAdmin):
         'description',
     )
 
-class ProductScentAdmin(admin.ModelAdmin):
-    list_display = (
-        'name',
-        'description',
-        'scentoptions',
-    )
 
-admin.site.register(ProductScent, ProductScentAdmin)
 admin.site.register(ScentProfile, ScentProfileAdmin)
