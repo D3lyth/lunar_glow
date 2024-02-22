@@ -200,6 +200,12 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Checkout webhook_handler.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/webhook_handler.py) | ![screenshot](documentation/py-validation-checkout-webhook_handler.png) | Pass: No Errors |
 | Checkout webhooks.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/webhooks.py) | ![screenshot](documentation/py-validation-checkout-webhooks.png) | Error: Line too long |
 
+| FAQs admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/admin.py) | ![screenshot](documentation/py-validation-faqs-admin.png) | Pass: No Errors |
+| FAQs models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/models.py) | ![screenshot](documentation/py-validation-faqs-models.png) | Pass: No Errors |
+| FAQs urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/urls.py) | ![screenshot](documentation/py-validation-faqs-urls.png) | Pass: No Errors |
+| FAQs views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/views.py) | ![screenshot](documentation/py-validation-faqs-views.png) | Pass: No Errors |
+
+
 | x | x | x | repeat for all remaining Python files |
 
 **IMPORTANT**: Django settings.py
