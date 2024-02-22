@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Product, Category, ScentProfile
+from .models import Product, Category
+from scentprofile.models import ScentProfile
 
 # Models
 
@@ -20,6 +21,7 @@ class ProductAdmin(admin.ModelAdmin):
             queryset = ScentProfile.objects.all()
             kwargs["queryset"] = queryset
         return super().formfield_for_foreignkey(db_field, request, **kwargs)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
