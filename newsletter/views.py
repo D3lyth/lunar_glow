@@ -3,7 +3,7 @@ from .forms import SubscriberForm
 
 
 def sign_up(request):
-    form = SubscriberForm(request.POST or None) 
+    form = SubscriberForm(request.POST or None)
     if request.method == 'POST':
         if form.is_valid():
             form.save()
