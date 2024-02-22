@@ -472,7 +472,7 @@ a#buy-selected-scent {
     }
 
     body {
-        height: clac(100vh - 116px);
+        height: calc(100vh - 116px);
     }
 
     .display-4.logo-font.text-black {
