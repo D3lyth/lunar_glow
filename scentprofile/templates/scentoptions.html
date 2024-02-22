@@ -23,8 +23,8 @@
             <div class="carousel-inner">
                 {% for scentoption in scentoptions %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                    <div id="scentoptiontitle">{{ scentoption.name|title }}</div>
-                    <div id="scentinformation">{{ scentoption.description }}</div>
+                    <div class="scentoptiontitle">{{ scentoption.name|title }}</div>
+                    <div class="scentinformation">{{ scentoption.description }}</div>
                     <!-- Inside the carousel template -->
                     <div class="text-center"> 
                         <a href="{% url 'products' %}?scent={{ scentoption.name|lower }}" class="btn btn-primary scentbutton">Select {{ scentoption.name|title }}</a>
