@@ -3,11 +3,10 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.urls import reverse
-from .models import Product, Category
 from django.db.models.functions import Lower
-
-
+from .models import Product, Category
 from .forms import ProductForm
+
 
 def all_products(request):
     """ A view of all products """
@@ -36,6 +35,10 @@ def all_products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+
+        if 'scent' in request.GET:
+            scents = request.GET['scent'].split(',')
+            products = products.filter(scent_profile__name__in=scents)
 
         if 'q' in request.GET:
             query = request.GET.get('q', '')
