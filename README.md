@@ -314,7 +314,7 @@ class Product(models.Model):
 ```
 
 - [DrawSQL](https://drawsql.app/)
-DrawSQL was used to cfreate an ERD to visualise the tables within the database and their relationships.
+DrawSQL was used to crreate an ERD to visualise the tables within the database and their relationships.
 
 🛑🛑🛑🛑🛑
 ![screenshot](documentation/erd.png)
@@ -659,17 +659,13 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on Heroku.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+After thoroughly comparing Local vs live deployment, there doesn't seem to be any differences in the website.
 
 ## Credits
 
-The main code base for this project has come from the Boutique Ado walkthrough by ![Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some faetures and code. This will include the profiles app, the checkout and bag app and various other featured of the website.
+The main code base for this project has come from the Boutique Ado walkthrough by [Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some features and code. This will include the profiles app, the checkout and bag app and various other featured of the website.
 
-The product names and descriptions for various products and scent profiles were generated using AI - ![ChatGPT](https://chat.openai.com/).
+The product names and descriptions for various products and scent profiles were generated using AI - [ChatGPT](https://chat.openai.com/).
 
 Image credit can be seen below.
 
