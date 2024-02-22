@@ -15,7 +15,7 @@ body {
 #main-tagline {
     font-weight: 300;
     line-height: 1.2;
-    background-color: rgba(250, 235, 215, 0.5);
+    background-color: #faebd780;
     padding: 5%;
     font-family: 'Lato';
 }
@@ -384,7 +384,7 @@ a.btn.btn-primary.scentbutton:active {
     display: block;
     float: left;
     left: 20%;
-    background-color: #f3ece5;
+    background-color: #f4ede7;
 }
 
 #carouselExampleFade {
@@ -400,45 +400,6 @@ a.btn.btn-primary.scentbutton:active {
 
 .scentinformation   {
     padding: 5%;
-}
-
-/* Scent Selection Page */
-
-#chosen-scent-container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-#chosen-scent-opener {
-    text-align: left;
-    font-size: 1.25rem;
-}
-
-#chosen-scent-name {
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Ms Madi", cursive;
-}
-
-#chosen-scent {
-    margin: 0 auto;
-    width: 95%;
-}
-
-#chosen-scent-try {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.25rem;
-    text-align: left;
-
-}
-
-a#buy-selected-scent {
-    color: white;
-    text-decoration: none;
-    background-color: black;
-    font-size: 1.4rem;
-    padding:0.5%;
 }
 
 /* Media Queries */
