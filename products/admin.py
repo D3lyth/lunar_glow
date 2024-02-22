@@ -4,6 +4,7 @@ from scentprofile.models import ScentProfile
 
 # Models
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'name',
@@ -28,6 +29,7 @@ class CategoryAdmin(admin.ModelAdmin):
         'friendly_name',
         'name',
     )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
