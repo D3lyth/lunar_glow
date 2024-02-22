@@ -30,6 +30,5 @@ urlpatterns = [
     path('faqs/', include('faqs.urls')),
     path('newsletter/', include('newsletter.urls')),
     path('scentprofile/', include('scentprofile.urls')),
-    # path('scentselection/', include('scentprofile.urls')),  
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
