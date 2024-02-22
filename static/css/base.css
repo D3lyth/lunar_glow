@@ -357,7 +357,7 @@ a.category-badge > span.badge:hover {
 
 /* Scent Profile Options Page */
 
-#scentoptiontitle   {
+.scentoptiontitle   {
     font-family: "Ms Madi", cursive;
     font-size: 2.5rem;
     text-align: center;
@@ -398,7 +398,7 @@ a.btn.btn-primary.scentbutton:active {
     background-color: #49341c;
 }
 
-#scentinformation   {
+.scentinformation   {
     padding: 5%;
 }
 
