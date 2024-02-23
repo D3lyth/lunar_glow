@@ -65,92 +65,71 @@ The font was used to give a clean and elegant finish.
 
 ## Wireframes
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![screenshot](documentation/wireframes/mobile-home.jpeg)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+Products
+  - ![screenshot](documentation/wireframes/mobile-products.jpeg)
 
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+FAQs
+  - ![screenshot](documentation/wireframes/mobile-faqs.jpeg)
 
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+Newsletter
+  - ![screenshot](documentation/wireframes/mobile-newsletter.jpeg)
 
-etc.
-  - repeat for any remaining mobile wireframes
+Which Scent?
+  - ![screenshot](documentation/wireframes/mobile-whichscent.jpeg)
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+  - ![screenshot](documentation/wireframes/tablet-home.jpeg)
 
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+Products
+  - ![screenshot](documentation/wireframes/tablet-products.jpeg)
 
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+FAQs
+  - ![screenshot](documentation/wireframes/tablet-faqs.jpeg)
 
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
+Newsletter
+  - ![screenshot](documentation/wireframes/tablet-newsletter.jpeg)
 
-etc.
-  - repeat for any remaining tablet wireframes
+Which Scent?
+  - ![screenshot](documentation/wireframes/tablet-whichscent.jpeg)
 
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+  - ![screenshot](documentation/wireframes/desktop-home.jpeg)
 
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
+Products
+  - ![screenshot](documentation/wireframes/desktop-products.jpeg)
 
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
+FAQs
+  - ![screenshot](documentation/wireframes/desktop-faqs.jpeg)
 
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
+Newsletter
+  - ![screenshot](documentation/wireframes/desktop-newsletter.jpeg)
 
-etc.
-  - repeat for any remaining desktop wireframes
+Which Scent?
+  - ![screenshot](documentation/wireframes/desktop-whichscent.jpeg)
 
-< / details >
+</details>
 
 ## Features
 
@@ -314,7 +293,7 @@ class Product(models.Model):
 ```
 
 - [DrawSQL](https://drawsql.app/)
-DrawSQL was used to crreate an ERD to visualise the tables within the database and their relationships.
+DrawSQL was used to create an ERD to visualise the tables within the database and their relationships.
 
 🛑🛑🛑🛑🛑
 ![screenshot](documentation/erd.png)
@@ -663,11 +642,13 @@ After thoroughly comparing Local vs live deployment, there doesn't seem to be an
 
 ## Credits
 
-The main code base for this project has come from the Boutique Ado walkthrough by [Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some features and code. This will include the profiles app, the checkout and bag app and various other featured of the website.
+The main code base for this project has come from the Boutique Ado walkthrough by [Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some features and code. This will include the profiles app, the checkout and bag app and various other features of the website.
 
 The product names and descriptions for various products and scent profiles were generated using AI - [ChatGPT](https://chat.openai.com/).
 
 Image credit can be seen below.
+
+The foooter base code has coome from
 
 ### Content
 
@@ -687,26 +668,14 @@ Image credit can be seen below.
 
 ### Media
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Here are the sources of the images for the website.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.flaticon.com/free-icon/candle_604680) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
+| [Ethel and Co](https://ethelandco.co.uk/) | home page | image | hero image background |
+| [ScentMyLove](https://www.scentmylove.co.uk) | entire site | image | sample of fake products - mainly candles and wax bars |
+| [Etsy](https://etsy.co.uk/) | entire site | image | sample of fake products |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
