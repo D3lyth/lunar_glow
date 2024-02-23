@@ -267,15 +267,6 @@ Techlologies used during the creation of Lunar Glow include:
 
 ## Database Design
 
-Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
-Understanding the relationships between different tables can save time later in the project.
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Using your defined models (one example below), create an ERD with the relationships identified.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ```python
 class Product(models.Model):
     category = models.ForeignKey(
@@ -295,13 +286,7 @@ class Product(models.Model):
 - [DrawSQL](https://drawsql.app/)
 DrawSQL was used to create an ERD to visualise the tables within the database and their relationships.
 
-🛑🛑🛑🛑🛑
 ![screenshot](documentation/erd.png)
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Using Markdown formatting to represent an example ERD table using the Product model above:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - Table: **Product**
 
@@ -311,9 +296,84 @@ Using Markdown formatting to represent an example ERD table using the Product mo
     | | sku | CharField | |
     | | name | CharField | |
     | | description | TextField | |
-	| | scent_profile | CharField | |
+	| **FK** | scent_profile | CharField | FK to **ScentProfile** model|
     | | price | DecimalField | |
     | | image | ImageField | |
+
+- Table: **Category**
+
+  | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | harField | |
+    | | friendly_name | CharField | |
+
+
+- Table: **Order**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | user_profile | ForeignKey | FK to **UserProfile** model |
+    | | order_number | CharField | |
+    | | full_name | CharField | |
+    | | email | EmailField | |
+	| | phone_number | CharField | |
+    | | country | CountryField | |
+    | | street_address1 | CharField | |
+	| | street_address2 | CharField | |
+	| | county | CharField | |
+	| | date | DateTimeField | |
+	| | delivery_cost | DecimalField | |
+	| | order_total | DecimalField | |
+	| | grand_total | DecimalField | |
+
+- Table: **OrderLineItem**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | order | ForeignKey | FK to **Order** model |
+    | **FK** | product | CharField | FK to **Product** model |
+    | | quantity | IntegerField | | |
+    | | lineitem_total | DecimalField | |
+ 
+- Table: **FAQCategory**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | CharField |  |
+    | | friendly_name | CharField |  |
+  
+- Table: **FAQ_QA**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | **FK**  | faq_category | ForeignKey  | FK to **FAQCategory** model |
+    | | question | CharField |  |
+    | | answer | TextField |  |
+  
+  - Table: **Subscriber**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    |  | email | EmailField |  |
+    | | name | CharField |  |
+    | | timestamp | DateTimeField |  |
+
+  - Table: **ScentProfile**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    |  | name| CharField |  |
+    | | description | TextField |  |
+
+  - Table: **UserProfile**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | user | OneToOneField | FK to **User** model |
+	| | default_phone_number | CharField | |
+	| | default_street_address1 | CharField | |
+	| | default_street_address2 | CharField | |
+	| | default_town_or_city | CharField | |
+   	| | default_county | CharField | |
+    | | default_postcode | DecimalField | |
+	| | default_country | CountryField | |
 
 ## Testing
 
