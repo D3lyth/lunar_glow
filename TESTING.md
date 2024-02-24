@@ -114,14 +114,13 @@ The browsers tested include:
 🛑🛑🛑🛑🛑
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
+| Device | Home | Products | FAQs | Newsletter | Which Scent | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-products.png) | ![screenshot](documentation/responsive-mobile-faqs.png) |[screenshot](documentation/responsive-mobile-newsletter.png) |[screenshot](documentation/responsive-mobile-whichscent.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-products.png) | ![screenshot](documentation/responsive-tablet-faqs.png) | ![screenshot](documentation/responsive-tablet-newsletter.png) | ![screenshot](documentation/responsive-tablet-whichscent.png) | Works as expected |
+| Tablet (iPad Air) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-products.png) | ![screenshot](documentation/responsive-tablet-faqs.png) | ![screenshot](documentation/responsive-tablet-newsletter.png) | ![screenshot](documentation/responsive-tablet-whichscent.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-products.png) | ![screenshot](documentation/responsive-desktop-faqs.png) | ![screenshot](documentation/responsive-desktop-newsletter.png) |![screenshot](documentation/responsive-tablet-whichscent.png) |  Works as expected |
 | XL Monitor | ![screenshot](documentation/responsive-xl-home.png) | ![screenshot](documentation/responsive-xl-about.png) | ![screenshot](documentation/responsive-xl-contact.png) | ![screenshot](documentation/responsive-xl-etc.png) | Scaling starts to have minor issues |
 | 4K Monitor | ![screenshot](documentation/responsive-4k-home.png) | ![screenshot](documentation/responsive-4k-about.png) | ![screenshot](documentation/responsive-4k-contact.png) | ![screenshot](documentation/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel-home.png) | ![screenshot](documentation/responsive-pixel-about.png) | ![screenshot](documentation/responsive-pixel-contact.png) | ![screenshot](documentation/responsive-pixel-etc.png) | Works as expected |
 | iPhone 14 | ![screenshot](documentation/responsive-iphone-home.png) | ![screenshot](documentation/responsive-iphone-products.png) | ![screenshot](documentation/responsive-iphone-faqs.png) | ![screenshot](documentation/responsive-iphone-newsletter.png) | ![screenshot](documentation/responsive-iphone-whichscent.png) | Works as expected |
 
 ## Lighthouse Audit
