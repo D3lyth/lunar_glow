@@ -304,7 +304,6 @@ a.category-badge > span.badge:hover {
     font-weight: 600;
 }
 
-
 /*  CSS the modal overlay for Newsletter Sign Up */
 
 #modal-overlay {
@@ -317,7 +316,6 @@ a.category-badge > span.badge:hover {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
-
 
 .card {
     text-align: left;
