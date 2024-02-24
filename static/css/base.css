@@ -413,10 +413,16 @@ a.btn.btn-primary.scentbutton:active {
     padding-left: 5%;
 }
 
-.p-0 {
+.footer {
+    padding: 0px;
+}
+
+/* .p-0 {
     padding: 0!important;
     font-size: 1.1rem;
-}
+} */
+
+
 
 /* Media Queries */
 
