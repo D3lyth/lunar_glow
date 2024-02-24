@@ -6,55 +6,18 @@ Return back to the [README.md](README.md) file.
 
 ### HTML
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
-
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https%3A%2F%2Fd3lyth.github.io%2Flunar_glow%2Findex.html
-
-Sample HTML code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files and used the [Validate by uri](https://validator.w3.org/#validate_by_uri) for the live pages.
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd3lyth.github.io%2Flunar_glow%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd3lyth.github.io%2Flunar_glow%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd3lyth.github.io%2Flunar_glow%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-**IMPORTANT**: Python/Jinja syntax in HTML
-
-Python projects that use Jinja syntax, such as `{% for loops %}`, `{% url 'home' %}`, and `{{ variable|filter }}`
-will not validate properly if you're copying/pasting into the HTML validator.
-
-In order to properly validate these types of files, it's recommended to
-[validate by uri](https://validator.w3.org/#validate_by_uri) from the deployed Heroku pages.
-
-Unfortunately, pages that require a user to be logged-in and authenticated (CRUD functionality),
-will not work using this method, due to the fact that the HTML Validator (W3C) doesn't have
-access to login to your pages.
-In order to properly validate HTML pages with Jinja syntax for authenticated pages, follow these steps:
-
-- Navigate to the deployed pages which require authentication
-- Right-click anywhere on the page, and select **View Page Source** (usually `CTRL+U` or `⌘+U` on Mac).
-- This will display the entire "compiled" code, without any Jinja syntax.
-- Copy everything, and use the [validate by input](https://validator.w3.org/#validate_by_input) method.
-- Repeat this process for every page that requires a user to be logged-in/authenticated.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2F) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors|
+| Product | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fproducts%2F) | ![screenshot](documentation/html-validation-products.png) | Pass: No Errors |
+| FAQs | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Ffaqs%2Ffaqs%2F) | ![screenshot](documentation/html-validation-faqs.png) | Pass: No Errors |
+| Newsletter | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fnewsletter%2F) | ![screenshot](documentation/html-validation-newsletter.png) | Pass: No Errors |
+| Which Scent? | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fscentprofile%2F) | ![screenshot](documentation/html-validation-whichscent.png) | Pass: No Errors |
+| Product Details | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fproducts%2F2%2F) | ![screenshot](documentation/html-validation-productdetails.png) | Pass: No Errors |
+| Bag | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fbag%2F) | ![screenshot](documentation/html-validation-bag.png) | Pass: No Errors |
+| Checkout | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fcheckout%2F) | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
 
 ### CSS
 
@@ -85,51 +48,41 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Bag views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/d3lyth/lunar_glow/main/profiles/models.py) | ![screenshot](documentation/py-validation-bag-views.png) | Pass: No Errors |
 | Bag apps.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/bag/apps.py) | ![screenshot](documentation/py-validation-bag-apps.png) | Pass: No Errors |
 | Bag bagtools.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/bag/templatetags/bag_tools.py) | ![screenshot](documentation/py-validation-bag-bagtools.png) | Pass: No Errors |
-
 | Checkout admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/admin.py) | ![screenshot](documentation/py-validation-checkout-admin.png) | Pass: No Errors |
 | Checkout forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/forms.py) | ![screenshot](documentation/py-validation-checkout-forms.png) | Pass: No Errors |
 | Checkout models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/models.py) | ![screenshot](documentation/py-validation-checkout-models.png) | Pass: No Errors |
 | Checkout signals.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/signals.py) | ![screenshot](documentation/py-validation-checkout-signals.png) | Pass: No Errors |
 | Checkout urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/urls.py) | ![screenshot](documentation/py-validation-checkout-urls.png) | Pass: No Errors |
-| Checkout views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/views.py
-) | ![screenshot](documentation/py-validation-checkout-views.png) | Pass: No Errors |
+| Checkout views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/views.py) | ![screenshot](documentation/py-validation-checkout-views.png) | Pass: No Errors |
 | Checkout webhook_handler.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/webhook_handler.py) | ![screenshot](documentation/py-validation-checkout-webhook_handler.png) | Pass: No Errors |
 | Checkout webhooks.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/checkout/webhooks.py) | ![screenshot](documentation/py-validation-checkout-webhooks.png) | Error: Line too long |
-
 | FAQs admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/admin.py) | ![screenshot](documentation/py-validation-faqs-admin.png) | Pass: No Errors |
 | FAQs models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/models.py) | ![screenshot](documentation/py-validation-faqs-models.png) | Pass: No Errors |
 | FAQs urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/urls.py) | ![screenshot](documentation/py-validation-faqs-urls.png) | Pass: No Errors |
 | FAQs views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/faqs/views.py) | ![screenshot](documentation/py-validation-faqs-views.png) | Pass: No Errors |
-
 | Home urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/home/urls.py) | ![screenshot](documentation/py-validation-home-urls.png) | Pass: No Errors |
 | Home views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/home/views.py) | ![screenshot](documentation/py-validation-home-views.png) | Pass: No Errors |
-
 | Lunar Glow settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/lunar_glow/settings.py) | ![screenshot](documentation/py-validation-lunarglow-settings.png) | Pass: No Errors |
 | Lunar Glow urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/lunar_glow/urls.py) | ![screenshot](documentation/py-validation-lunarglow-urls.png) | Pass: No Errors |
-
 | Newsletter admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/newsletter/admin.py) | ![screenshot](documentation/py-validation-newsletter-admin.png) | Pass: No Errors |
 | Newsletter forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/newsletter/forms.py) | ![screenshot](documentation/py-validation-newsletter-forms.png) | Pass: No Errors |
 | Newsletter models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/newsletter/models.py) | ![screenshot](documentation/py-validation-newsletter-models.png) | Pass: No Errors |
 | Newsletter urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/newsletter/urls.py) | ![screenshot](documentation/py-validation-newsletter-urls.png) | Pass: No Errors |
 | Newsletter views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/newsletter/views.py) | ![screenshot](documentation/py-validation-newsletter-views.png) | Pass: No Errors |
-
 | Products admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/admin.py) | ![screenshot](documentation/py-validation-products-admin.png) | Pass: No Errors |
 | Products forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/forms.py) | ![screenshot](documentation/py-validation-products-forms.png) | Pass: No Errors |
 | Products models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/models.py) | ![screenshot](documentation/py-validation-products-models.png) | Pass: No Errors |
 | Products urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/urls.py) | ![screenshot](documentation/py-validation-products-urls.png) | Pass: No Errors |
 | Products views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/views.py) | ![screenshot](documentation/py-validation-products-views.png) | Pass: No Errors |
 | Products widgets.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/products/widgets.py) | ![screenshot](documentation/py-validation-products-widgets.png) | Pass: No Errors |
-
 | Profiles forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/profiles/forms.py) | ![screenshot](documentation/py-validation-profiles-forms.png) | Pass: No Errors |
 | Profiles models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/profiles/models.py) | ![screenshot](documentation/py-validation-profiles-models.png) | Pass: No Errors |
 | Profiles urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/profiles/urls.py) | ![screenshot](documentation/py-validation-profiles-urls.png) | Pass: No Errors |
 | Profiles views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/profiles/views.py) | ![screenshot](documentation/py-validation-profiles-views.png) | Pass: No Errors |
-
 | Scent Profile admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/admin.py) | ![screenshot](documentation/py-validation-scentprofile-admin.png) | Pass: No Errors |
 | Scent Profile models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/models.py) | ![screenshot](documentation/py-validation-scentprofile-models.png) | Pass: No Errors |
 | Scent Profile urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/urls.py) | ![screenshot](documentation/py-validation-scentprofile-urls.png) | Pass: No Errors |
 | Scent Profile views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/views.py) | ![screenshot](documentation/py-validation-scentprofile-views.png) | Pass: No Errors |
-
 | Root Level custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/custom_storages.py) | ![screenshot](documentation/py-validation-rootlevel-custom-storages.png) | Pass: No Errors |
 | Root Level manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/manage.py) | ![screenshot](documentation/py-validation-rootlevel-manage.png) | Pass: No Errors |
 
@@ -147,15 +100,10 @@ The browsers tested include:
 | Browser | Home | Products | FAQs | Newsletter | Which Scent? | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome-home.png) | ![screenshot](documentation/browser-chrome-products.png) | ![screenshot](documentation/browser-chrome-faqs.png) | ![screenshot](documentation/browser-chrome-newsletter.png) | ![screenshot](documentation/browser-chrome-whichscent.png) |Works as expected |
-
 | Firefox | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-products.png) | ![screenshot](documentation/browser-firefox-faqs.png) | ![screenshot](documentation/browser-firefox-newsletter.png) | ![screenshot](documentation/browser-firefox-whichscent.png) |Works as expected |
-
 | Edge | ![screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-edge-products.png) | ![screenshot](documentation/browser-edge-faqs.png) | ![screenshot](documentation/browser-edge-newsletter.png) | ![screenshot](documentation/browser-edge-whichscent.png) |Works as expected |
-
 | Safari | ![screenshot](documentation/browser-safari-home.png) | ![screenshot](documentation/browser-safari-products.png) | ![screenshot](documentation/browser-safari-faqs.png) | ![screenshot](documentation/browser-safari-newsletter.png) | ![screenshot](documentation/browser-safari-whichscent.png) |Minor CSS differences |
-
 | Brave | ![screenshot](documentation/browser-brave-home.png) | ![screenshot](documentation/browser-brave-products.png) | ![screenshot](documentation/browser-brave-faqs.png) | ![screenshot](documentation/browser-brave-newsletter.png) | ![screenshot](documentation/browser-brave-whichscent.png) |Works as expected |
-
 | Opera | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-products.png) | ![screenshot](documentation/browser-opera-faqs.png) | ![screenshot](documentation/browser-opera-newsletter.png) | ![screenshot](documentation/browser-opera-whichscent.png) |Minor differences |
 
 
@@ -273,7 +221,9 @@ Defensive programming was manually tested with the below user acceptance testing
 | Contact | | | | | |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
 | | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
+| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature09.png) |
+| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature10.png) |
+
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
