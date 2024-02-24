@@ -1,0 +1,42 @@
+{% load static %}
+
+<!-- footer -->
+<footer class="container-fluid bg-light bg-gradient py-3 mt-auto">
+    <div class="row">
+
+    <!-- lower footer -->
+    <div class="row pt-4 mt-4 border-top">
+        <!-- copyright -->
+        <div class="col-12 col-md-6 my-3 d-flex align-items-center justify-content-center justify-content-md-start">
+            <p class="ms-md-5 m-0 p-0">
+                <a href="{% url 'home' %}" class="text-black">
+                    &copy;<span class= "text-black" id="year"></span> D. Jennings
+                </a>
+                <br>
+                All rights reserved
+            </p>
+        </div>
+
+        <!-- social media -->
+        <div class="col-12 col-md-6 my-3">
+            <ul class="list-unstyled text-center d-flex flex-row justify-content-center justify-content-md-end me-md-5 m-0 p-0">
+                <li class="mx-1 mx-md-2">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Link to Facebook">
+                        <i class="fa-brands fa-facebook text-black"></i>
+                    </a>
+                </li>
+                <li class="mx-1 mx-md-2">
+                    <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Link to Instagram">
+                        <i class="fa-brands fa-instagram text-black"></i>
+                    </a>
+                </li>
+                <li class="mx-1 mx-md-2">
+                    <a href="http://github.com" target="_blank" rel="noopener" aria-label="Link to Github">
+                        <i class="fa-brands fa-github text-black"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</footer>

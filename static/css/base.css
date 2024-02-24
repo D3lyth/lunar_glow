@@ -50,7 +50,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -400,6 +400,23 @@ a.btn.btn-primary.scentbutton:active {
 
 .scentinformation   {
     padding: 5%;
+}
+
+/* Footer Styling */
+
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+    width: 100vw;
+}
+
+.pt-4 {
+    padding-top: 1.2rem!important;
+    padding-left: 5%;
+}
+
+.p-0 {
+    padding: 0!important;
+    font-size: 1.1rem;
 }
 
 /* Media Queries */
