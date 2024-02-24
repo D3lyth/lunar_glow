@@ -18,6 +18,8 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Product Details | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fproducts%2F2%2F) | ![screenshot](documentation/html-validation-productdetails.png) | Pass: No Errors |
 | Bag | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fbag%2F) | ![screenshot](documentation/html-validation-bag.png) | Pass: No Errors |
 | Checkout | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fcheckout%2F) | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
+| Checkout Success | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com%2Fcheckout%2Fcheckout_success%2F3EB990504C95402CAA838A91CEE7C4C9) | ![screenshot](documentation/html-validation-checkoutsuccess.png) | Error: Element p not allowed as child of element strong (known django bug) |
+
 
 ### CSS
 
@@ -83,7 +85,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Scent Profile models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/models.py) | ![screenshot](documentation/py-validation-scentprofile-models.png) | Pass: No Errors |
 | Scent Profile urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/urls.py) | ![screenshot](documentation/py-validation-scentprofile-urls.png) | Pass: No Errors |
 | Scent Profile views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/scentprofile/views.py) | ![screenshot](documentation/py-validation-scentprofile-views.png) | Pass: No Errors |
-| Root Level custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/custom_storages.py) | ![screenshot](documentation/py-validation-rootlevel-custom-storages.png) | Pass: No Errors |
+| Root Level custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/custom_storages.py) | ![screenshot](documentation/py-validation-rootlevel-custom_storages.png) | Pass: No Errors |
 | Root Level manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/D3lyth/lunar_glow/main/manage.py) | ![screenshot](documentation/py-validation-rootlevel-manage.png) | Pass: No Errors |
 
 ## Browser Compatibility
@@ -160,7 +162,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Feature is expected to allow administrator to have access to various tables such as orders, products, subscribers and faqs to allow adding, editing, and removal of faqs, products and subscribers  | Tested the feature by adding, editing, and removal of faqs, products and subscribers | The feature worked as expected.| Test concluded and passed | ![screenshot](documentation/feature10.png) |
 
 
-Soe other tests were conducted which include results below
+Soe other tests were conducted which include results below:
 
 | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
@@ -219,64 +221,6 @@ Soe other tests were conducted which include results below
 | As an administrator, I want to view and manage order details, as well as handle customer inquiries efficiently, so that I can streamline order processing and provide excellent customer service. | ![screenshot](documentation/feature09.png) |
 | As an administrator, I want access to a dashboard to manage various aspects of the website, including products, user profiles, orders, FAQs, and newsletter subscribers, so that I can efficiently oversee and maintain the site for optimal performance and user experience. | ![screenshot](documentation/feature10.png) |
 
-## Automated Testing
-
-I have conducted a series of automated tests on my application.
-
-I fully acknowledge and understand that, in a real-world scenario, an extensive set of additional tests would be more comprehensive.
-
-### Python (Unit Testing)
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Adjust the code below (file names, etc.) to match your own project files/folders.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I have used Django's built-in unit testing framework to test the application functionality.
-
-In order to run the tests, I ran the following command in the terminal each time:
-
-`python3 manage.py test name-of-app `
-
-To create the coverage report, I would then run the following commands:
-
-`coverage run --source=name-of-app manage.py test`
-
-`coverage report`
-
-To see the HTML version of the reports, and find out whether some pieces of code were missing, I ran the following commands:
-
-`coverage html`
-
-`python3 -m http.server`
-
-Below are the results from the various apps on my application that I've tested:
-
-| App | File | Coverage | Screenshot |
-| --- | --- | --- | --- |
-| Bag | test_forms.py | 99% | ![screenshot](documentation/py-test-bag-forms.png) |
-| Bag | test_models.py | 89% | ![screenshot](documentation/py-test-bag-models.png) |
-| Bag | test_urls.py | 100% | ![screenshot](documentation/py-test-bag-urls.png) |
-| Bag | test_views.py | 71% | ![screenshot](documentation/py-test-bag-views.png) |
-| Checkout | test_forms.py | 99% | ![screenshot](documentation/py-test-checkout-forms.png) |
-| Checkout | test_models.py | 89% | ![screenshot](documentation/py-test-checkout-models.png) |
-| Checkout | test_urls.py | 100% | ![screenshot](documentation/py-test-checkout-urls.png) |
-| Checkout | test_views.py | 71% | ![screenshot](documentation/py-test-checkout-views.png) |
-| Home | test_forms.py | 99% | ![screenshot](documentation/py-test-home-forms.png) |
-| Home | test_models.py | 89% | ![screenshot](documentation/py-test-home-models.png) |
-| Home | test_urls.py | 100% | ![screenshot](documentation/py-test-home-urls.png) |
-| Home | test_views.py | 71% | ![screenshot](documentation/py-test-home-views.png) |
-| Products | test_forms.py | 99% | ![screenshot](documentation/py-test-products-forms.png) |
-| Products | test_models.py | 89% | ![screenshot](documentation/py-test-products-models.png) |
-| Products | test_urls.py | 100% | ![screenshot](documentation/py-test-products-urls.png) |
-| Products | test_views.py | 71% | ![screenshot](documentation/py-test-products-views.png) |
-| Profiles | test_forms.py | 99% | ![screenshot](documentation/py-test-profiles-forms.png) |
-| Profiles | test_models.py | 89% | ![screenshot](documentation/py-test-profiles-models.png) |
-| Profiles | test_urls.py | 100% | ![screenshot](documentation/py-test-profiles-urls.png) |
-| Profiles | test_views.py | 71% | ![screenshot](documentation/py-test-profiles-views.png) |
-| x | x | x | repeat for all remaining tested apps/files |
-
 ## Bugs
 
 - Checkout Success form not totalling the order amount correctly and just showing £0.00.
@@ -287,7 +231,9 @@ Below are the results from the various apps on my application that I've tested:
 
     - To fix this, I refactored the code so that the line was not too long.
 
-- 🛑🛑🛑🛑🛑  CSS Footer Styling issues - the footer 
+- CSS Footer Styling issues - the footer was not pushing to the bottom of the page.
+
+    - To fix this, I ran the page through the validator and noticed an open `<div>` tag, which when closed, rectified the problem.
 
 ## Unfixed Bugs
 
