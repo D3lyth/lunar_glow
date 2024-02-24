@@ -345,24 +345,27 @@ DrawSQL was used to create an ERD to visualise the tables within the database an
 - Table: **FAQ_QA**
 
     | **PK** | **id** (unique) | Type | Notes |
+	| --- | --- | --- | --- |
     | **FK**  | faq_category | ForeignKey  | FK to **FAQCategory** model |
     | | question | CharField |  |
     | | answer | TextField |  |
   
-  - Table: **Subscriber**
-
+- Table: **Subscriber**
+	
     | **PK** | **id** (unique) | Type | Notes |
+	| --- | --- | --- | --- |
     |  | email | EmailField |  |
     | | name | CharField |  |
     | | timestamp | DateTimeField |  |
 
-  - Table: **ScentProfile**
-
+- Table: **ScentProfile**
+	
     | **PK** | **id** (unique) | Type | Notes |
+	| --- | --- | --- | --- |
     |  | name| CharField |  |
     | | description | TextField |  |
 
-  - Table: **UserProfile**
+- Table: **UserProfile**
 
     | **PK** | **id** (unique) | Type | Notes |
     | --- | --- | --- | --- |
@@ -704,11 +707,11 @@ After thoroughly comparing Local vs live deployment, there doesn't seem to be an
 
 The main code base for this project has come from the Boutique Ado walkthrough by [Code Institute](https://learn.codeinstitute.net), that I have then added, edited and removed some features and code. This will include the profiles app, the checkout and bag app and various other features of the website.
 
+The code for the footer has been based on and adapted from [Tim Nelson](https://github.com/TravelTimN) in this [html file](https://github.com/TravelTimN/iraqikurdistanguide/blob/main/templates/base.html).
+
 The product names and descriptions for various products and scent profiles were generated using AI - [ChatGPT](https://chat.openai.com/).
 
 Image credit can be seen below.
-
-The foooter base code has coome from
 
 ### Content
 
