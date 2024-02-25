@@ -27,7 +27,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| base.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fd3lyth.github.io%2Flunar_glow) | ![screenshot](documentation/css-validation-base.png) | Pass: No Errors |
+| base.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flunar-glow-77444c493d2e.herokuapp.com) | ![screenshot](documentation/css-validation-base.png) | Pass: No Errors |
 | checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
 | profile.css | n/a | ![screenshot](documentation/css-validation-profile.png) | Pass: No Errors |
 
