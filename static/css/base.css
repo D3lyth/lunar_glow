@@ -419,7 +419,6 @@ a.btn.btn-primary.scentbutton:active {
     padding: 0px;
 }
 
-
 /* Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -486,3 +485,11 @@ a.btn.btn-primary.scentbutton:active {
         padding: .25rem .5rem !important;
     }
 }
+
+/* For footer styling on larger screens */
+
+@media (min-width: 768px) {
+    .text-md-start {
+      text-align: left !important;
+    }
+  }
