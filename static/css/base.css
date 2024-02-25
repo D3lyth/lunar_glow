@@ -14,7 +14,6 @@ body {
 }
 
 /* Home Page */
-
 #main-tagline {
     font-weight: 300;
     line-height: 1.2;
@@ -87,11 +86,9 @@ body {
 }
 
 /* Empty shopping bag */
-
 p.lead.mb-5 {
     margin-top: 10%;
 }
-
 
 /* Overlay to hide main image on products page */
 .overlay {
@@ -122,7 +119,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* Toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -190,7 +186,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* Allauth form formatting */
-
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
@@ -244,7 +239,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* Product Form */
-
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -272,7 +266,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* Product Details Page */
-
 .table {
     margin-top: 5%;
     width: 100%;
@@ -281,7 +274,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* FAQ page */
-
 /* Bold the questions */
 .question {
     font-weight: bolder;
@@ -308,7 +300,6 @@ a.category-badge > span.badge:hover {
 }
 
 /*  CSS the modal overlay for Newsletter Sign Up */
-
 #modal-overlay {
     display: none;
     position: fixed;
@@ -357,14 +348,12 @@ a.category-badge > span.badge:hover {
 }
 
 /* Scent Profile Options Page */
-
 .scentoptiontitle   {
     font-family: "Ms Madi", cursive;
     font-size: 2.5rem;
     text-align: center;
     margin: 2%;
 }
-
 
 a.btn.btn-primary.scentbutton:active {
     background-color: #000;
@@ -404,7 +393,6 @@ a.btn.btn-primary.scentbutton:active {
 }
 
 /* Footer Styling */
-
 .border-top {
     border-top: 1px solid #dee2e6!important;
     width: 100vw;
@@ -487,7 +475,6 @@ a.btn.btn-primary.scentbutton:active {
 }
 
 /* For footer styling on larger screens */
-
 @media (min-width: 768px) {
     .text-md-start {
       text-align: left !important;
