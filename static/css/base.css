@@ -450,7 +450,6 @@ a.btn.btn-primary.scentbutton:active {
     }
 
     body {
-        /* height: calc(100vh - 116px); */
         height: 100vh;
     }
 
@@ -485,10 +484,4 @@ a.btn.btn-primary.scentbutton:active {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-}
-
-@media (max-width: 991px)   {
-    .d-md-none {
-    display: block;
-}
 }
