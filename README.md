@@ -1,5 +1,7 @@
 # [LUNAR GLOW](https://lunar-glow-77444c493d2e.herokuapp.com)
 
+Welcome to the Lunar Glow. This website has been designed to provide an online platform for customers to explore and purchase a variety of high-quality, luxury candles, wax melts and accessories. With a focus on creating a delightful shopping experience, this website aims to showcase our products while ensuring ease of navigation and secure transactions.
+
 ![screenshot](documentation/mockup.png)
 
 ## UX
